@@ -386,6 +386,29 @@ body {
     border-top: 2px solid #333 !important;
 }
 
+/*-- お問い合わせページ --*/
+.form-control {
+    border: 1px solid #333 !important;
+}
+.btn-contact {
+    color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #000;
+    border-color: #000;
+    border-radius: 0;
+}
+.btn-contact:hover {
+    color: #ccc;
+    background-color: #333;
+    border-color: #333;
+}
+.form-check-input {
+    position: static !important;
+}
+input[type=checkbox], input[type=radio] {
+    transform: scale(1.9);
+}
 /*--- footerのスタイル ---*/
 
 
