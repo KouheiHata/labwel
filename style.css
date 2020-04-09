@@ -513,6 +513,17 @@ body {
 input[type=checkbox], input[type=radio] {
     transform: scale(1.9);
 }
+
+/*-- 会社概要ページ --*/
+.table th {
+    width: 30%;
+}
+.table td, .table th {
+    padding: 1.8rem !important;
+    font-weight: bolder;
+    border-top: 2px solid #333 !important;
+}
+
 /*--- footerのスタイル ---*/
 
 
