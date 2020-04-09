@@ -489,7 +489,15 @@ body {
 /*--- pageのスタイル ---*/
 
 /*--- singleのスタイル ---*/
-
+/*-- 会社概要ページ --*/
+.table th {
+    width: 30%;
+}
+.table td, .table th {
+    padding: 1.8rem !important;
+    font-weight: bolder;
+    border-top: 2px solid #333 !important;
+}
 /*-- お問い合わせページ --*/
 .form-control {
     border: 1px solid #333 !important;
