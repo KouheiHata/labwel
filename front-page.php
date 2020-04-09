@@ -42,6 +42,22 @@
                             <div></div>
                         </div>
                     </div>
+                    <div class="carousel3">
+                        <div class="i-wrapper">
+                            <ul>
+                                <li>
+                                    <img src="<?php echo esc_url( get_theme_file_uri('images/top_image03.jpg') ); ?>" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="carouselborder">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="content-title">CONCEPT</p>
+                        <P class="content-text">株式会社LABwelは、お仕事を通して自分の存在価値・やる気新たな能力の発見など、利用者さんの成長に繋がる自立支援をサポートする会社です。</P>
+                    </div>
                 </section>
             
                 <section id="section03"></section>

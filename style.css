@@ -314,7 +314,7 @@ body {
 }
 
 /*---------------------------------------------
- headerのスタイル
+ 2.headerのスタイル
 -----------------------------------------------*/
 /*ハンバーガーメニュー*/
 .ham {
@@ -369,7 +369,9 @@ body {
 }
 
 
-/*--- front-pageのスタイル ---*/
+/*---------------------------
+ 3.front-pageのスタイル 
+-----------------------------*/
 #section01 {
     position: relative;
 }
@@ -420,10 +422,7 @@ body {
     bottom: 0;
 }
 */
-.i-wrapper ul li img {
-    width: 100%;
-}
-.carouselborder {
+.carousel1 .carouselborder {
     width: 30px;
     left: 0;
     top: calc(100vh * 0.357);
@@ -457,12 +456,35 @@ body {
     left: calc(100vw / 36 * 3);
 }
 
-.carouselborder div {
-    width: calc(100vw / 36 * 13);
+.carousel2 .carouselborder div {
+    width: 452px;
     height: 10px;
     background: linear-gradient(to right, #f15a24, #ffff00);
 }
 
+.carousel3 {
+    position: absolute;
+    top: calc(100vw * 0.25);
+    right: 0;
+    width: calc(100vw / 36 * 11);
+    height: calc(100vh * 0.284);
+}
+
+.carousel3 .carouselborder div {
+    position: relative;
+    right: 10px;
+    bottom: 402px;
+    width: 13px;
+    height: 402px;
+    background: linear-gradient(#8cc63f, #ffff00);
+}
+
+#section02 .content {
+    line-break: normal;
+    padding-top: calc(100vw * 0.25);
+    margin-left: calc(100vw / 36 * 15);
+    margin-right: calc(100vw / 36 * 12);
+}
 
 /*--- pageのスタイル ---*/
 
