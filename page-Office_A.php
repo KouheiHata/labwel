@@ -25,7 +25,7 @@ Template Name: labwelA型事業所ページ
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img1">
             <div class="a-box1">
-                <p class="text-center text-white font-weight-bolder font50">戸別収集</p>
+                <p class="text-white font-weight-bolder font50">戸別収集</p>
             </div>
         </div>
     </div>
