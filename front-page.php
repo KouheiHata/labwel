@@ -69,7 +69,14 @@
             </div>
         </section>
 
-            <section id="section04"></section>
+            <section id="section04">
+                <div class="content">
+                    <p class="content-title">就労継続支援Ａ型</p>
+                    <h2></h2>
+                    <p class="content-text"></p>
+                    <a href="#" class="button">MORE</a>
+                </div>
+            </section>
 
             <section id="section05"></section>
 
