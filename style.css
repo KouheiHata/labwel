@@ -16,10 +16,13 @@ page
 single
 footer
 -------------------------------------------------------------*/
-
+html {
+    overflow-x: hidden;
+}
 
 html,
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -325,6 +328,7 @@ body {
     width: calc(100vw / 36 * 3);
     height: 144px;
     cursor: pointer;
+    z-index: 5;
 }
 #ham::before,
 #ham::after {
@@ -452,8 +456,8 @@ body {
 .carousel2 {
     position: absolute;
     width: calc(100vw / 36 * 13);
-    top: calc(100vh * 0.2);
-    left: calc(100vw / 36 * 3);
+    top: calc(100vh * 0.25);
+    left: calc(100vw / 36 * 2.25);
 }
 
 .carousel2 .carouselborder div {
@@ -463,28 +467,71 @@ body {
 }
 
 .carousel3 {
+    text-align: right;
     position: absolute;
-    top: calc(100vw * 0.25);
+    top: calc(100vh * 0.8);
     right: 0;
     width: calc(100vw / 36 * 11);
     height: calc(100vh * 0.284);
 }
 
 .carousel3 .carouselborder div {
-    position: relative;
-    right: 10px;
-    bottom: 402px;
+    position: absolute;
+    top: 0;
+    left: 25%;
     width: 13px;
     height: 402px;
     background: linear-gradient(#8cc63f, #ffff00);
 }
 
 #section02 .content {
+    font-family: "Noto Sans JP", sans-serif;
+    white-space: pre-line;
     line-break: normal;
-    padding-top: calc(100vw * 0.25);
+    padding-top: calc(100vw * 0.3);
     margin-left: calc(100vw / 36 * 15);
     margin-right: calc(100vw / 36 * 12);
 }
+
+.content {
+    z-index: 2;
+}
+
+#section02 .content-title {
+    font-size:12px;
+    color: #f7931e;
+}
+#section02 .content-title::before {
+    content: '';
+    border-bottom: 1px solid #f7931e;
+    padding: 1px 75px 0;
+    margin-right: 5px;
+    position: relative;
+    bottom: 0.8em;
+}
+.content-text {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2;
+}
+.content .button {
+    color: #fff;
+    padding: 2vw 8vw;
+    background: #333;
+}
+#section02 .content .button {
+    position: relative;
+    left: 20%;
+}
+
+/*--- セクション３のスタイル ---*/
+
+#section03 {
+    position: relative;
+}
+
+/*--- セクション４のスタイル ---*/
 
 /*--- pageのスタイル ---*/
 
