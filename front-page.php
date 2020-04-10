@@ -72,13 +72,38 @@
             <section id="section04">
                 <div class="content">
                     <p class="content-title">就労継続支援Ａ型</p>
-                    <h2></h2>
-                    <p class="content-text"></p>
+                    <h2>
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo.png') ); ?>" alt="">
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="">
+                    </h2>
+                    <p class="content-text">バリエーション豊富なお仕事内容だから自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
                     <a href="#" class="button">MORE</a>
+                    <div class="bg"></div>
+                    <ul>
+                        <li><img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img.jpg') ); ?>" alt=""></li>
+                        <li><img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img2.jpg') ); ?>" alt=""></li>
+                        <li><img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img3.jpg') ); ?>" alt=""></li>
+                    </ul>
                 </div>
             </section>
 
-            <section id="section05"></section>
+            <section id="section05">
+                <h2>
+                    <img src="<?php echo esc_url( get_theme_file_uri('images/b_staff_img.jpg') ); ?>" alt="">
+                </h2>
+                <div class="content">
+                    <p class="content-title">就労継続支援Ｂ型</p>
+                    <h3>
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="">
+                    </h3>
+                    <p class="content-text">みんなと仕事をするのが楽しくなる。そんな働きやすい環境と楽しい人間関係づくりにこだわりました。</p>
+                    <a href="#" class="button">MORE</a>
+                </div>
+            </section>
+            
+            <section id="section06"></section>
+            
+            <section id="section07"></section>
 
 
     </main>
