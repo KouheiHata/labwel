@@ -569,15 +569,40 @@ input[type=checkbox], input[type=radio] {
     transform: scale(1.9);
 }
 
-/*-- A型事業所 --*/
-.bg-A-img1 {
+/*-- A型事業所＆B型事業所 --*/
+.a-toptext,.b-toptext {
+    line-height: 1.8;
+    letter-spacing: .08em;
+    padding-bottom: 100px;
+}
+.bg-A-img1,.bg-A-img2,.bg-A-img3,.bg-A-img4,.bg-A-img5,.bg-A-img6,.bg-A-img7 {
     position: relative;
     height: 350px;
-    background-image: url(images/office_a-img1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.bg-A-img1::before {
+.bg-A-img1 {
+    background-image: url(images/office_a-img1.png);
+}
+.bg-A-img2 {
+    background-image: url(images/office_a-img2.png);
+}
+.bg-A-img3 {
+    background-image: url(images/office_a-img3.png);
+}
+.bg-A-img4 {
+    background-image: url(images/office_a-img4.png);
+}
+.bg-A-img5 {
+    background-image: url(images/office_a-img5.png);
+}
+.bg-A-img6 {
+    background-image: url(images/office_a-img6.png);
+}
+.bg-A-img7 {
+    background-image: url(images/office_a-img7.png);
+}
+.bg-A-img1::before,.bg-A-img2::before,.bg-A-img3::before,.bg-A-img4::before,.bg-A-img5::before,.bg-A-img6::before,.bg-A-img7::before {
 	position: absolute;
     content: ' ';
 	top: 0;
@@ -591,7 +616,31 @@ input[type=checkbox], input[type=radio] {
     width: 100%;
     text-align: center;
 }
-
+.a-box-title {
+    font-size: 60px;
+    margin: 40px;
+}
+.a-box-text {
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: .08em;
+}
+.a-box-img {
+    position: absolute;
+    top: 40px;
+    right: -80px;
+}
+.a-box-img img {
+    width: 60%;
+}
+.a-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+}
 /*--- footerのスタイル ---*/
 
 
