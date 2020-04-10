@@ -110,7 +110,32 @@
                 
             </section>
             
-            <section id="section07"></section>
+            <section id="top-end">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 colxs-4">
+                            <img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo.png') ); ?>" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 colxs-4">
+                            
+                            <h3>
+                                <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo_06.png') ); ?>" alt="ipppo!">
+                            </h3>
+                            <p>〒914-0045 敦賀市古田刈66-803-2</p>
+                            <p>TEL:0770-47-6526&nbsp;FAX:0770-47-6527</p>
+                            <p>TEL:0770-47-5024（おそうじ部）</p>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 colxs-4">
+                            <h3>
+                                <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="+ipppo!">
+                            </h3>
+                            <p>〒914-0121&nbsp;福井県敦賀市野神2-34-2</p>
+                            <p>TEL:0770-47-6979&nbsp;FAX:0770-47-6984</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
     </main>
