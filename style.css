@@ -569,7 +569,6 @@ input[type=checkbox], input[type=radio] {
     transform: scale(1.9);
 }
 
-
 /*-- 会社概要ページ --*/
 .table th {
     width: 30%;
@@ -578,30 +577,6 @@ input[type=checkbox], input[type=radio] {
     padding: 1.8rem !important;
     font-weight: bolder;
     border-top: 2px solid #333 !important;
-}
-
-
-/*-- A型事業所 --*/
-.bg-A-img1 {
-    position: relative;
-    height: 350px;
-    background-image: url(images/office_a-img1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.bg-A-img1::before {
-	position: absolute;
-    content: ' ';
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-    background-color: rgba(4, 6, 6, 0.3);
-}
-.a-box1 {
-    position: absolute;
-    width: 100%;
-    text-align: center;
 }
 
 /*--- footerのスタイル ---*/
