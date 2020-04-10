@@ -24,7 +24,7 @@ Template Name: labwelA型事業所ページ
 <div class="container-fluid">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img1">
-            <div class="a-box1">
+            <div class="a-box">
                 <p class="text-center text-white font-weight-bolder a-box-title">戸別収集</p>
                 <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
             </div>
@@ -34,42 +34,42 @@ Template Name: labwelA型事業所ページ
             <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img2">
-            <div class="a-box1">
+            <div class="a-box">
                 <p class="text-center text-white font-weight-bolder a-box-title">海岸清掃</p>
                 <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
             </div>
             <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img3">
-            <div class="a-box1">
+            <div class="a-box">
                 <p class="text-center text-white font-weight-bolder a-box-title">高齢者生活支援</p>
                 <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
             </div>
             <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img4">
-            <div class="a-box1">
+            <div class="a-box">
                 <p class="text-center text-white font-weight-bolder a-box-title">洗濯・クリーニング</p>
                 <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
             </div>
             <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img5">
-            <div class="a-box1">
+            <div class="a-box">
                 <p class="text-center text-white font-weight-bolder a-box-title">寺院清掃</p>
                 <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
             </div>
             <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img6">
-            <div class="a-box1">
+            <div class="a-box">
                 <p class="text-center text-white font-weight-bolder a-box-title">お弁当の調理・販売</p>
                 <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
             </div>
             <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img7">
-            <div class="a-box1">
+            <div class="a-box">
                 <p class="text-center text-white font-weight-bolder a-box-title">ケータリング</p>
                 <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
             </div>

@@ -21,4 +21,30 @@ Template Name: labwelB型事業所ページ
     </div>
 </div>
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-B-img1">
+            <div class="b-box">
+                <p class="text-center text-white font-weight-bolder b-box-title">結び昆布</p>
+                <p class="text-center text-white b-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+            </div>
+            <a href="#" class="b-link"></a>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-B-img2">
+            <div class="b-box">
+                <p class="text-center text-white font-weight-bolder b-box-title">寺院清掃</p>
+                <p class="text-center text-white b-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+            </div>
+            <a href="#" class="b-link"></a>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-B-img3">
+            <div class="b-box">
+                <p class="text-center text-white font-weight-bolder b-box-title">施設清掃</p>
+                <p class="text-center text-white b-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+            </div>
+            <a href="#" class="b-link"></a>
+        </div>
+    </div>
+</div>
+
 <?php get_footer(); ?>
