@@ -101,7 +101,14 @@
                 </div>
             </section>
             
-            <section id="section06"></section>
+            <section id="section06">
+                <h3>利用者さんの日々の活動はこちら</h3>
+                <h4>【LABwelが“NHK”出演決定！？】</h4>date
+                <p>敦賀の就労支援継続A型B型事業所LABwelです。本日は日中の気温も２０度近く上がり気持ちのいい一日でしたね。さて表題の件ですがLABwelがNHKに出演が決定しました。（６月放送予定）LABwelは津敦賀の海岸清掃を敦賀市さんのサポートのもと１年を通して実施しております</p>
+                <a href="#" class="button">MORE</a>
+                
+                
+            </section>
             
             <section id="section07"></section>
 
