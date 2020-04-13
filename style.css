@@ -651,6 +651,8 @@ input[type=checkbox], input[type=radio] {
     text-indent:-999px;
 }
 /*--- footerのスタイル ---*/
-
+.bg-footer {
+    background-color: rgba(4, 6, 6, 1);
+}
 
 /*# sourceMappingURL=main.css.map */
