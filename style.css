@@ -528,10 +528,74 @@ body {
 /*--- セクション３のスタイル ---*/
 
 #section03 {
+    margin-top: 150px;
     position: relative;
+    left: 20%;
+
 }
 
 /*--- セクション４のスタイル ---*/
+#section04 {
+    position: relative;
+}
+#section04 .bg {
+    width: calc(100vw / 36 * 16);
+    height:120vh;
+    background: #333;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+#section04 .content {
+    margin-left: calc(100vw * 0.1);
+    margin-right: calc(100vw *0.6);
+    position: absolute;
+    top: calc(100vh * 0.3);
+}
+#section04 .content-title {
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom: 5vw;
+}
+#section04 .content-title::before {
+    content: '';
+    margin-right: 10px;
+    padding: 1px 9vw 0;
+    border-bottom: 1px solid #333;
+    position: relative;
+    bottom: 0.8em;
+}
+#section04 h2 img {
+    margin-bottom: 5vw;
+}
+#section04 .content p {
+    white-space: pre-line;
+    margin-bottom: 5vw;
+}
+
+#section04 ul {
+    position: absolute;
+    right: 20vw;
+    top: 15vh;
+}
+#section05 {
+    margin-top: 150vh;
+    position: relative;
+}
+.itemimage img {
+    position: relative;
+    left: 10%;
+    
+}
+#section05 .content {
+    position: relative;
+    left:60%;
+}
+#section05 .content-title {
+    font-weight: bold;
+}
+
 
 /*--- pageのスタイル ---*/
 
