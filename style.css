@@ -321,7 +321,7 @@ body {
 -----------------------------------------------*/
 /*ハンバーガーメニュー*/
 .ham {
-    background: #333;
+    background: #0e1827;
     position: fixed;
     top: 0;
     right: 0;
@@ -516,13 +516,14 @@ body {
     line-height: 2;
 }
 .content .button {
+    font-weight: bold;
     color: #fff;
-    padding: 2vw 8vw;
-    background: #333;
+    padding: 1.5vw 10vw 1.5vw 3vw;
+    background: #0e1827;
 }
 #section02 .content .button {
     position: relative;
-    left: 20%;
+    left: 31%;
 }
 
 /*--- セクション３のスタイル ---*/
@@ -541,7 +542,7 @@ body {
 #section04 .bg {
     width: calc(100vw / 36 * 16);
     height:120vh;
-    background: #333;
+    background: #0e1827;
     position: absolute;
     top: 0;
     right: 0;
@@ -579,23 +580,46 @@ body {
     right: 20vw;
     top: 15vh;
 }
+
+/*セクション５のスタイル*/
+
 #section05 {
     margin-top: 150vh;
     position: relative;
 }
-.itemimage img {
+
+#section05 .content-title::before {
+    content: '';
+    border-bottom: 1px solid #333;
+    padding: 1px 9vw 0;
+    margin-right: 10px;
+    position: relative;
+    bottom: 0.8em;
+}
+
+.itemimage img:first-child {
+    position: absolute;
+    left: 0;
+}
+
+.itemimage img:nth-child(2) {
     position: relative;
     left: 10%;
     
 }
 #section05 .content {
+    white-space: pre-line;
     position: relative;
-    left:60%;
+    left: 60%;
+    bottom: 95vh;
+    margin-bottom: calc(-100vh / 30 * 18);
 }
 #section05 .content-title {
     font-weight: bold;
 }
-
+#section05 .content-text {
+    padding-bottom: 2vw;
+}
 
 /*--- pageのスタイル ---*/
 
