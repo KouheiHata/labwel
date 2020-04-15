@@ -8,11 +8,13 @@ Template Name: labwel会社概要ページ
 
 <?php get_header(); ?>
 
-<div class="container">
+<img src="http://localhost/wp-content/uploads/2020/04/LABwel_about.png" width="100%" class="testimg">
+
+<div class="container pb135">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div>
-                <p class="text-center pt-5 pb-4 font-weight-bolder font25">会社概要</p>
+                <p class="text-center font-weight-bolder pt100 pb40 font25">会社概要</p>
             </div>
             <table class="table">
                 <tbody>
