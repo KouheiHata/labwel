@@ -621,6 +621,35 @@ body {
     padding-bottom: 2vw;
 }
 
+/*セクション６のスタイル*/
+
+
+#section06::before,
+#section06::after {
+    content: '';
+    border-bottom: 1px solid #d1d1d1;
+    padding: 1px calc(100vw / 36 * 10) 0 calc(100vw / 36 * 15);
+    position: relative;
+    left: calc(100vw / 36 * 5);
+}
+#section06 .content {
+    margin: 3rem auto 6rem;
+    width: 70%;
+}
+#section06 .content time {
+    line-height: 2rem;
+}
+#section06 .content p {
+    line-height: 2rem;
+}
+
+#section06 .button {
+    margin-bottom: 25px;
+    position: relative;
+    top: 10vh;
+    left: 65%;
+}
+
 /*--- pageのスタイル ---*/
 
 /*--- singleのスタイル ---*/
