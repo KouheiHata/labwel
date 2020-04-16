@@ -15,8 +15,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-    <!--    <?php //deregister_script('jquery'); //wordpressのjquery停止 ?> 現状でこれを使うとwordpressが動かない-->
-    <?php wp_head(); ?>
+<?php
+wp_deregister_script('jquery');
+?>
+
+<?php wp_head(); ?>
 
 </head><!-- head end -->
 
@@ -39,10 +42,41 @@
                     </li>
                 </ul>
                 
-                <div class="ham" id="ham">
+                <div id="ham" class="ham">
                 </div>
                 
-                <nav id="global-nav"></nav>
+                <nav id="global-nav">
+			        <ul class="main">
+			            <li class="_1">
+			                <a href="/" class="hoverArea">
+			                    <p class="gillSansNovaMedium">トップ</p>
+			                </a>
+			            </li>
+			            <li class="_2">
+			                <a href="/product/" class="hoverArea">
+			                    <p class="gillSansNovaMedium">会社概要</p>
+			                </a>
+			            </li>
+			            <li class="_3">
+			                <a href="/ima-kole/" class="hoverArea">
+			                    <p class="gillSansNovaMedium">就労継続支援<br />Ａ型事業所</p>
+			                </a>
+			            </li>
+			            <li class="_4">
+			                <a href="/salonlist/" class="hoverArea">
+			                    <p class="gillSansNovaMedium">就労継続支援<br />Ｂ型事業所</p>
+			                </a>
+			            </li>
+			            <li class="_5">
+			                <a href="/forstylists/" class="hoverArea">
+			                    <p class="gillSansNovaMedium">お問い合わせ</p>
+			                </a>
+			            </li>
+			        </ul>
+			        <div class="lower">
+			            <p class="copyright gillSansNovaBook"><small>© 2020, LABwel INC, <br />ALL TRADEMARKS REGISTERED. <span>ALL RIGHTS RESERVED</span></small></p>
+			        </div>
+                </nav>
 
             </div>
         </div>
