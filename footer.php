@@ -45,6 +45,23 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js" charset="UTF-8"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
+<!-- swiper -->
+<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/swiper.min.js"></script>
+<script>
+var swiper = new Swiper ('.swiper-container', {
+    navigation: {
+        nextE1: '.swiper-button-next',
+        prevE1: '.swiper-button-prev',
+    },
+    effect: "fade", //フェードさせる
+    loop: true,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction :false,
+    },
+});
+</script>
+
 <?php wp_footer(); ?>
 </body>
 

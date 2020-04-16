@@ -589,6 +589,13 @@ position: fixed;
     color: #fff;
     padding: 1.5vw 10vw 1.5vw 3vw;
     background: #0e1827;
+    border: 2px solid #0e1827;
+}
+.content .button:hover,
+.content .button:active {
+    color: #0e1827;
+    background: #fff;
+    transition: 0.6s;
 }
 #section02 .content .button {
     position: relative;
@@ -644,16 +651,16 @@ position: fixed;
     margin-bottom: 5vw;
 }
 
-#section04 ul {
-    position: absolute;
-    right: 20vw;
-    top: 15vh;
+#section04 .slide-content {
+    position: relative;
+    top: calc(100vh * 0.125);
+    left: calc(100vw / 36 * 18);
 }
 
 /*セクション５のスタイル*/
 
 #section05 {
-    margin-top: 150vh;
+    margin-top: calc(100vw / 40 * 15);
     position: relative;
 }
 

@@ -16,9 +16,13 @@
             </div>
             <div class="carousel1">
                 <div class="i-wrapper">
-                    <ul>
-                        <li><img src="<?php echo esc_url( get_theme_file_uri('images/top_image1.jpg') ); ?>" alt=""></li>
-                    </ul>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/top_image1.jpg') ); ?>" alt=""></div>
+                            <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/top_image1-2.jpg') ); ?>" alt=""></div>
+                            <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/top_image1-3.jpg') ); ?>" alt=""></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="carouselborder">
@@ -83,19 +87,44 @@
                     きっと見つかります。</p>
                 <a href="#" class="button">MORE</a>
             </div>
-            <ul>
-                <li><img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img.jpg') ); ?>" alt=""></li>
-                <li><img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img2.jpg') ); ?>" alt=""></li>
-                <li><img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img3.jpg') ); ?>" alt=""></li>
-            </ul>
+            <div class="slide-content">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img.jpg') ); ?>" alt=""></div>
+                    <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img4.jpg') ); ?>" alt=""></div>
+                </div>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img2.jpg') ); ?>" alt="">
+                    </div>
+                    <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img5.jpg') ); ?>" alt=""></div>
+                    <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img6.jpg') ); ?>" alt=""></div>
+                </div>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img3.jpg') ); ?>" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img7.jpg') ); ?>" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img8.jpg') ); ?>" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
         </section>
 
         <section id="section05">
             <div class="itemimage">
-               <img src="<?php echo esc_url( get_theme_file_uri('images/b-staff_02.jpg') ); ?>" alt="">
+                <img src="<?php echo esc_url( get_theme_file_uri('images/b-staff_02.jpg') ); ?>" alt="">
                 <img src="<?php echo esc_url( get_theme_file_uri('images/b_staff_img.jpg') ); ?>" alt="">
             </div>
-           
+
             <div class="content">
                 <p class="content-title">就労継続支援Ｂ型</p>
                 <h3>
@@ -103,29 +132,29 @@
                     <img src="<?php echo esc_url( get_theme_file_uri('images/b-copy_07.png') ); ?>" alt="">
                 </h3>
                 <p class="content-text">みんなと仕事をするのが楽しくなる。
-                そんな働きやすい環境と楽しい人間関係づくりに
-                こだわりました。</p>
+                    そんな働きやすい環境と楽しい人間関係づくりに
+                    こだわりました。</p>
                 <a href="#" class="button">MORE</a>
             </div>
         </section>
 
         <section id="section06">
-           <!-- ブログ記事制作はまだのため見た目だけ整える -->
-           <div class="content">
-            <p class="text-center font-weight-bold my-5">利用者さんの日々の活動はこちら</p>
-            <p>LABwelの新入社★</p>
-            <time class="mb-5"><?php echo get_the_date(); ?></time>
-            <p>敦賀の就労継続支援Ａ型Ｂ型事業所のLABwelです。
-            4月に入りLABwelにもあたらしい
-            仲間が入社しました。
-            
-            職員と利用者さんが
-            数名入社されました。..
-            </p>
-            <img src="<?php echo esc_url( get_theme_file_uri('images/sample1.png') ); ?>" alt="" class="d-block pt20">
-            <a href="#" class="button">MORE</a>
-           </div>
-            
+            <!-- ブログ記事制作はまだのため見た目だけ整える -->
+            <div class="content">
+                <p class="text-center font-weight-bold my-5">利用者さんの日々の活動はこちら</p>
+                <p>LABwelの新入社★</p>
+                <time class="mb-5"><?php echo get_the_date(); ?></time>
+                <p>敦賀の就労継続支援Ａ型Ｂ型事業所のLABwelです。
+                    4月に入りLABwelにもあたらしい
+                    仲間が入社しました。
+
+                    職員と利用者さんが
+                    数名入社されました。..
+                </p>
+                <img src="<?php echo esc_url( get_theme_file_uri('images/sample1.png') ); ?>" alt="" class="d-block pt20">
+                <a href="#" class="button">MORE</a>
+            </div>
+
 
         </section>
 

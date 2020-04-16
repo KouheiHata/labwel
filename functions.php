@@ -41,6 +41,17 @@ add_action( 'after_setup_theme', 'custom_theme_setup' );
 }
 add_action( 'widgets_init', 'custom_widget_register' ); */
 
+function enqueue_scripts() {
+    //CSS
+    wp_enqueue_style('main', get_stylesheet_uri()
+                    );
+    //javascript
+    wp_enqueue_script('mainjs', get_stylesheet_directory_uri().'/js/main.js',array(),'',true
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_scripts' );
+
+
 //西暦和暦変換
 function wareki($ymd)
 {
