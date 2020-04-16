@@ -734,8 +734,27 @@ position: fixed;
     opacity: .7;
 }
 /*--- singleのスタイル ---*/
+.pt65 {
+   padding-top: 65px; 
+}
 .pb135 {
     padding-bottom: 135px;
+}
+.pb185 {
+    padding-bottom: 185px;
+}
+.pl90 {
+    padding-left: 90px;
+}
+.pl100 {
+    padding-left: 100px;
+}
+.pl350 {
+    padding-left: 350px;
+}
+.font26 {
+    font-size: 26px;
+}
 /*-- 会社概要ページ --*/
 }
 .table {
@@ -756,13 +775,47 @@ position: fixed;
     border-top: 2px solid #333 !important;
 }
 /*-- お問い合わせページ --*/
+.form1 {
+    padding-top: 15px;
+}
+.form2 {
+    padding-top: 40px;
+}
+.form3 {
+    padding-top: 35px;
+}
+.form4 {
+    padding-top: 35px;
+}
+.form5 {
+    padding-top: 40px;
+}
+.form6 {
+    padding-top: 50px;
+}
+.form7 {
+    padding-top: 45px;
+}
+.form8 {
+    padding-top: 45px;
+}
+.form-check-box {
+    padding-left: 23px;
+}
+.form-check-text {
+    padding-left: 35px;
+}
+.contact-text {
+    letter-spacing: .1rem;
+}
 .form-control {
     border: 1px solid #333 !important;
+    border-radius: 15px;
 }
 .btn-contact {
     color: #fff;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
     background-color: #000;
     border-color: #000;
     border-radius: 0;
@@ -879,6 +932,8 @@ input[type=checkbox], input[type=radio] {
     padding-top: 20px;
 }
 .bg-footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: rgba(4, 6, 6, 1);
 }
 
