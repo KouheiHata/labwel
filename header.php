@@ -9,9 +9,10 @@
 
     <!-- Bootstrap4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--スタイルシート-->
-    <link rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>">
-
+    <!-- swiper css -->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/swiper.min.css">
+    <!-- slick -->
+    <link rel="stylesheet" href="">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
@@ -29,7 +30,7 @@
                 <h1>
                     <img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo.png') ); ?>" alt="LABwel">
                 </h1>
-                
+
                 <ul class="vertical">
                     <li>
                         <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo.png') ); ?>" alt="ipppo">
@@ -38,10 +39,10 @@
                         <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="+ipppo">
                     </li>
                 </ul>
-                
+
                 <div class="ham" id="ham">
                 </div>
-                
+
                 <nav id="global-nav"></nav>
 
             </div>
