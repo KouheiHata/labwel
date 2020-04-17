@@ -47,6 +47,17 @@ wp_deregister_script('jquery');
                 </div>
                 
                 <nav id="global-nav">
+				    <header id="globHeader">
+				        <a href="/"><img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo-menu.png') ); ?>" /></a>
+				    </header>
+	                <ul class="vertical">
+	                    <li>
+	                        <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo.png') ); ?>" alt="ipppo">
+	                    </li>
+	                    <li>
+	                        <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="+ipppo">
+	                    </li>
+	                </ul>
 			        <ul class="main">
 			            <li class="_1">
 			                <a href="/" class="hoverArea">
@@ -54,22 +65,27 @@ wp_deregister_script('jquery');
 			                </a>
 			            </li>
 			            <li class="_2">
-			                <a href="/product/" class="hoverArea">
+			                <a href="/about/" class="hoverArea">
 			                    <p class="gillSansNovaMedium">会社概要</p>
 			                </a>
 			            </li>
 			            <li class="_3">
-			                <a href="/ima-kole/" class="hoverArea">
+			                <a href="/a-gata/" class="hoverArea">
 			                    <p class="gillSansNovaMedium">就労継続支援<br />Ａ型事業所</p>
 			                </a>
 			            </li>
 			            <li class="_4">
-			                <a href="/salonlist/" class="hoverArea">
+			                <a href="/b-gata/" class="hoverArea">
 			                    <p class="gillSansNovaMedium">就労継続支援<br />Ｂ型事業所</p>
 			                </a>
 			            </li>
 			            <li class="_5">
-			                <a href="/forstylists/" class="hoverArea">
+			                <a href="/blog/" class="hoverArea">
+			                    <p class="gillSansNovaMedium">ブログ</p>
+			                </a>
+			            </li>
+			            <li class="_6">
+			                <a href="/contact/" class="hoverArea">
 			                    <p class="gillSansNovaMedium">お問い合わせ</p>
 			                </a>
 			            </li>
