@@ -91,7 +91,7 @@ wp_deregister_script('jquery');
 			            </li>
 			        </ul>
 			        <div class="lower">
-			            <p class="copyright gillSansNovaBook"><small>© 2020, LABwel INC, <br />ALL TRADEMARKS REGISTERED. <span>ALL RIGHTS RESERVED</span></small></p>
+			            <p class="copyright gillSansNovaBook"><small>©︎ 2020, LABwel INC.,<span>ALL TRADEMARKS REGISTERED. ALL RIGHTS RESERVED</span></small></p>
 			        </div>
                 </nav>
             </div>
