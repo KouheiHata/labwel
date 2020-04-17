@@ -901,7 +901,7 @@ body {
 }
 .form-control {
     border: 1px solid #333 !important;
-    border-radius: 15px;
+    border-radius: 3px;
 }
 .btn-contact {
     color: #fff;

@@ -1,12 +1,12 @@
 <footer id="footer">
     <div class="container-fluid py-5">
         <div class="row footer-box">
-            <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-logo">
                 <div>
                     <img class="footer-logo1" src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo.png') ); ?>">
                 </div>
             </div>
-            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 pl90">
+            <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6 col-xs-6 pl90 footer-textbox1">
                 <div>
                     <img class="footer-logo2" src="<?php echo esc_url( get_theme_file_uri('images/ipppo_06.png') ); ?>">
                 </div>
@@ -16,7 +16,7 @@
                     <p class="font-weight-bolder pb10">TEL:0770-47-5024（おそうじ部）</p>
                 </div>
             </div>
-            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6 col-xs-6 footer-textbox2">
                 <div>
                     <img class="footer-logo2" src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>">
                 </div>
