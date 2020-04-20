@@ -12,9 +12,11 @@ Version: 1.0
 1.Document
 2.header
 3.front-page
-page
-single
-footer
+4.page
+    4-1.会社概要
+    4-2.Ａ型事業所＆Ｂ型事業所
+5.single
+6.footer
 -------------------------------------------------------------*/
 html {
     overflow-x: hidden;
@@ -817,14 +819,18 @@ body {
     left: 65%;
 }
 
-/*--- pageのスタイル ---*/
+/*-------------------------------
+    pageのスタイル
+---------------------------------*/
 .testimg {
     z-index: -999;
     position: absolute;
     top: -20px;
     opacity: .7;
 }
-/*--- singleのスタイル ---*/
+/*---------------------------------
+    singleのスタイル 
+----------------------------------*/
 .pt65 {
    padding-top: 65px; 
 }
