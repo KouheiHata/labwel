@@ -523,9 +523,9 @@ body {
 
 .carousel1 {
     position: absolute;
-    width: calc(100vw / 36 * 19.144);
+    width: calc(100vw / 36 * 20);
     top: 0;
-    right: calc(100vw / 36 * 3);
+    right: calc(100vw / 50 * 2.4);
     bottom: 0;
 }
 /*
