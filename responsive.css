@@ -121,6 +121,8 @@
 		background: #FFF;
 		animation: global-navHover 600ms ease;
 	}
+
+/* メニューマウスオーバー時の写真 */
 	#global-nav .main li._1 a:before {
 		background-image: url(images/menu_01.jpg);
 	}
@@ -242,19 +244,6 @@
 		border: 2px solid #eeeeee; }
 		#global-nav .lower .share li a svg path {
 		fill: #0e1827;
-	}
-	#global-nav .lower .staticLinks {
-		mix-blend-mode: normal;
-		padding: 29px 0 27px;
-		font-size: 16px;
-		margin-left: 0;
-	}
-	#global-nav .lower .staticLinks li {
-		float: none;
-	}
-	#global-nav .lower .staticLinks li + li {
-		margin-top: 12px;
-		margin-left: 0;
 	}
 	#global-nav .lower .copyright {
 		mix-blend-mode: normal;
