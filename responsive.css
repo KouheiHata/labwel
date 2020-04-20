@@ -67,20 +67,32 @@
 /* -------------------------------------------------------------------------------- */
 /*	4. Header
 /* -------------------------------------------------------------------------------- */
-@media screen and (max-width: 990px) and (min-width: 1024px) {
-    
+
+@media screen and (max-width: 990px) {
+    #section01 .bg {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 990px) and (min-width: 770px) {
+
+@media screen and (max-width: 990px) and (min-width: 771px) {
     .vertical {
         position: absolute;
         right: 0;
     }
+    .carousel1 {
+        width: calc(100vw / 50 * 35);
+        right: calc(100vw / 50 * 4);
+    }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 770px) and (min-width: 581px) {
     .vertical {
         position: absolute;
         right: 0;
+    }
+    .carousel1 {
+        width: calc(100vw / 50 * 35);
+        right: calc(100vw / 50 * 3.3);
     }
 }
 
@@ -263,7 +275,62 @@
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
+/*--- セクション２のスタイル ---*/
 
+@media screen and (max-width: 990px) {
+    #section02 .bg {
+        display: none;
+    }
+    .carousel2 {
+        top: calc(100vh * 0.8);
+    }
+    #section03 {
+        top:200vh;
+    }
+    #section04 {
+        top:150vh;
+    }
+}
+@media screen and (max-width:990px) and (min-width: 771px) {
+        .carousel2 img {
+        width: calc(100vw / 50 * 20);
+    }
+    .carousel2 .carouselborder div {
+        width: calc(100vw / 50 * 20);
+    }
+    #section02 .content {
+        position: relative;
+        top: calc(100vh * 1.65);
+        margin-left: calc(100vw / 50 * 4);
+        margin-right: calc(100vw / 50 * 4);
+    }
+    #section02 .content-title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #section02 .content-title::before {
+        padding: 1px calc(100vw / 50 * 10) 0;
+    }
+    #section02 .content-text {
+        line-height: 3rem;
+    }
+    #section02 .content .button {
+        left: calc(100vw / 50 * 30);
+    }
+    .carousel3 {
+        top: calc(100vh * 1.25);
+        right: calc(100vw / 50 * 5.9);
+    }
+    .carousel3 .carouselborder div {
+        left: 0;
+    }
+}
+@media screen and (max-width:770px) and (min-width: 581px) {
+    #section02 .content {
+        margin-left: calc(100vw / 50 * 8);
+        margin-right: calc(100vw / 50 * 8);
+    }
+}
 
 
 /* -------------------------------------------------------------------------------- */
