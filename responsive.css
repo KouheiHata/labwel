@@ -55,7 +55,184 @@
 /* -------------------------------------------------------------------------------- */
 /*	5. Menu Navigation
 /* -------------------------------------------------------------------------------- */
+@media screen and (min-width: 750px) {
+	#global-nav .main li .hoverArea {
+		overflow: hidden;
+		display: block;
+	}
+	#global-nav .main li .hoverArea:before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: 0;
+		transition: opacity 1000ms cubic-bezier(0.19, 1, 0.22, 1), transform 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+		transform: scale(1.1);
+	}
+	#global-nav .main li a:hover .gillSansNovaMedium {
+		color: #FFF;
+	}
+	#global-nav .main li a:hover {
+		color: #FFF;
+	}
+	#global-nav .main li a:hover:before {
+		opacity: 1;
+		transform: scale(1);
+	}
+	#global-nav .main li a:hover p:before {
+		background: #FFF;
+		animation: global-navHover 600ms ease;
+	}
+	#global-nav .main li._1 a:before {
+		background-image: url(images/menu_01.jpg);
+	}
+	#global-nav .main li._2 a:before {
+		background-image: url(images/menu_02.jpg);
+	}
+	#global-nav .main li._3 a:before {
+		background-image: url(images/menu_03.jpg);
+	}
+	#global-nav .main li._4 a:before {
+		background-image: url(images/menu_04.jpg);
+	}
+	#global-nav .main li._5 a:before {
+		background-image: url(images/menu_05.jpg);
+	}
+	#global-nav .main li._6 a:before {
+		background-image: url(images/menu_06.jpg);
+	}
+}
 
+@keyframes global-navHover {
+  0% {
+    left: auto;
+    right: calc(100% - 20px);
+    width: 20px; }
+  50% {
+    left: auto;
+    right: calc(100% - 20px);
+    width: 0px; }
+  51% {
+    left: 0;
+    right: auto;
+    width: 0px; }
+  100% {
+    left: 0;
+    width: 20px; }
+}
+
+@media screen and (max-width: 749px) {
+	#global-nav {
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
+	#global-nav:before {
+		content: "";
+		display: block;
+		position: fixed;
+		right: calc(100vw / 18.75 * 3);
+		width: 1px;
+		background: #ededed;
+		top: 0;
+		bottom: 0;
+		transform: translateX(1px);
+	}
+	#global-nav .main {
+		display: block;
+		margin-right: calc(100vw / 18.75 * 3);
+		height: auto;
+		padding: 100px calc(100vw * 0.097) 0 0;
+		border-bottom: 1px solid #ededed;
+	}
+	#global-nav .main li {
+		height: 111px;
+		border-right: none;
+		border-top: 1px solid #ededed;
+	}
+	#global-nav .main li .hoverArea p {
+		top: 50%;
+		left: calc(100vw * 0.097);
+		transform: translateY(-50%);
+		font-size: 20px;
+		padding-bottom: 12px;
+	}
+	#global-nav .main li .hoverArea p span {
+		margin-top: 9px;
+		font-size: 10px;
+	}
+	#global-nav .main li .hoverArea p:before {
+		height: 1px;
+		left: 0;
+		bottom: -1px;
+	}
+	#global-nav .main li .hoverArea p.show:before {
+		width: 10px;
+	}
+	#global-nav .copy {
+		top: 0;
+		width: calc(100vw / 18.75 * 3);
+		height: calc(100vh); }
+		#global-nav .copy small img {
+		width: 130px;
+		height: 13px;
+	}
+	#global-nav .lower {
+		position: relative;
+		margin-left: calc(100vw * 0.097);
+		padding-right: calc(100vw * 0.097);
+		margin-right: calc(100vw / 18.75 * 3);
+		padding-bottom: 50px;
+		left: auto;
+		bottom: auto;
+		display: block;
+		mix-blend-mode: normal;
+		color: #000514;
+	}
+	#global-nav .lower .share {
+		margin-left: 0;
+		transform: none;
+		padding: 35px 0;
+		overflow: hidden;
+		border-bottom: 1px solid #ededed;
+		mix-blend-mode: normal;
+	}
+	#global-nav .lower .share li a {
+		display: block;
+		width: 40px;
+		height: 40px;
+		line-height: 34px;
+		border: 2px solid #eeeeee; }
+		#global-nav .lower .share li a svg path {
+		fill: #0e1827;
+	}
+	#global-nav .lower .staticLinks {
+		mix-blend-mode: normal;
+		padding: 29px 0 27px;
+		font-size: 16px;
+		margin-left: 0;
+	}
+	#global-nav .lower .staticLinks li {
+		float: none;
+	}
+	#global-nav .lower .staticLinks li + li {
+		margin-top: 12px;
+		margin-left: 0;
+	}
+	#global-nav .lower .copyright {
+		mix-blend-mode: normal;
+		font-size: 10px;
+		line-height: 15px;
+	}
+	#global-nav .lower .copyright span {
+		display: block;
+	}
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	6. Button
