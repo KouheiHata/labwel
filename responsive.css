@@ -375,6 +375,9 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 575.98px) {
+    .contact-container {
+        padding-bottom: 100px !important;
+    }
     .contact-box,.contact-toptext {
         padding-left: 30px !important;
         padding-right: 30px;
@@ -382,20 +385,86 @@
     .footer-box,.contact-btnbox {
         padding-left: 0 !important;
     }
-    .form-group label,.form8 p,.contact-toptext {
-        font-size: 20px !important;
+    .form-group label,.form8 p,.contact-toptext,.btn-contact {
+        font-size: 18px !important;
+    }
+    .contact-titlebox {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
     }
     .contact-title {
-        font-size: 24px !important;
+        padding-top: 19px !important;
+        padding-bottom: 0 !important;
+        font-size: 18px !important;
+    }
+    .contact-toptext {
+        font-size: 18px !important;
+        padding-top: 40px !important;
     }
     .form-check-box {
-        padding-top: 30px;
+        padding-top: 35px;
     }
     .contact-btnbox {
         text-align: center;
     }
+    .contact-text {
+        letter-spacing: 0 !important;
+    }
+    .form-control {
+        margin-left: 0px;
+        width: 200px;
+    }
+    .form-control-lg {
+        height: calc(.6em + 1rem + 2px);
+    }
+    .form1 {
+        padding-top: 8px !important;
+    }
+    .form2 {
+        padding-top: 9px !important;
+    }
+    .form3 {
+        padding-top: 5px !important;
+    }
+    .form4 {
+        padding-top: 6px !important;
+    }
+    .form5,.form6 {
+        padding-top: 7px !important;
+    }
+    .form7 {
+        padding-top: 4px !important;
+    }
+    .form7 textarea {
+        height: 140px;
+    }
+    .form8 {
+        padding-top: 98px !important;
+        padding-left: 16px;
+    }
+    .form-check-text {
+        padding-left: 3px !important;
+    }
+    .contact-btnbox {
+        padding-top: 35px !important;
+    }
+    .btn-contact {
+        padding-left: 58px !important;
+        padding-right: 58px !important;
+    } 
+    .com-toptext {
+        padding-top: 100px;
+        padding-bottom: 40px;
+        font-size: 20px !important;
+    }
+    .table td, .table th {
+        font-size: 16px !important;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px){
+    .contact-container {
+        padding-bottom: 100px !important;
+    }
     .contact-box,.contact-toptext {
         padding-left: 30px !important;
         padding-right: 30px;
@@ -470,6 +539,14 @@
         padding-left: 58px !important;
         padding-right: 58px !important;
     } 
+    .com-toptext {
+        padding-top: 100px;
+        padding-bottom: 40px;
+        font-size: 20px !important;
+    }
+    .table td, .table th {
+        font-size: 16px !important;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px){
     .contact-box,.contact-toptext {
@@ -490,6 +567,10 @@
     }
     .contact-btnbox {
         text-align: center;
+    }
+    .com-toptext {
+        padding-top: 100px;
+        padding-bottom: 40px;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px){
@@ -525,27 +606,55 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 575.98px) {
+    .footer-logo1 {
+        width: 130px !important;
+    }
+    .footer-logo2 {
+        width: 75px !important;
+    }
     .footer-logo {
         padding-left: 45px;
-        padding-bottom: 50px;
+        padding-bottom: 35px;
     }
+    .footer-text {
+        font-size: 13px !important;
+    } 
     .footer-textbox1 {
         padding-left: 30px !important;
     }
     .footer-textbox2 {
-        padding-right: 30px !important;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 0px !important;
+    }
+    .bg-footer {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px){
+    .footer-logo1 {
+        width: 130px !important;
+    }
+    .footer-logo2 {
+        width: 75px !important;
+    }
     .footer-logo {
         padding-left: 45px;
-        padding-bottom: 50px;
+        padding-bottom: 35px;
     }
+    .footer-text {
+        font-size: 13px !important;
+    } 
     .footer-textbox1 {
         padding-left: 30px !important;
     }
     .footer-textbox2 {
         padding-right: 30px !important;
+    }
+    .bg-footer {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px){

@@ -12,7 +12,7 @@ Template Name: labwel会社概要ページ
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div>
-                <p class="text-center font-weight-bolder pt100 pb40 font25">会社概要</p>
+                <p class="text-center font-weight-bolder pt100 pb40 font25 com-toptext">会社概要</p>
             </div>
             <table class="table">
                 <tbody>
