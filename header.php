@@ -59,7 +59,7 @@ wp_deregister_script('jquery');
 			        <ul class="main">
 			            <li class="_1">
 			                <a href="/" class="hoverArea">
-			                    <p class="gillSansNovaMedium">トップ</p>
+			                    <p class="gillSansNovaMedium">TOP</p>
 			                </a>
 			            </li>
 			            <li class="_2">
@@ -69,12 +69,12 @@ wp_deregister_script('jquery');
 			            </li>
 			            <li class="_3">
 			                <a href="/a-gata/" class="hoverArea">
-			                    <p class="gillSansNovaMedium">就労継続支援<br />Ａ型事業所</p>
+			                    <p class="gillSansNovaMedium">就労継続支援<br class="menu_br" />Ａ型事業所</p>
 			                </a>
 			            </li>
 			            <li class="_4">
 			                <a href="/b-gata/" class="hoverArea">
-			                    <p class="gillSansNovaMedium">就労継続支援<br />Ｂ型事業所</p>
+			                    <p class="gillSansNovaMedium">就労継続支援<br class="menu_br" />Ｂ型事業所</p>
 			                </a>
 			            </li>
 			            <li class="_5">

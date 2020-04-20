@@ -74,7 +74,6 @@
     }
 }
 
-
 @media screen and (max-width: 990px) and (min-width: 771px) {
     .vertical {
         position: absolute;
@@ -85,6 +84,14 @@
         right: calc(100vw / 50 * 4);
     }
 }
+
+@media screen and (max-width: 833px) {
+/* Ipppoロゴ */
+	.vertical li img {
+		width: calc(100vw / 18.75);
+	}
+}
+
 @media screen and (max-width: 770px) and (min-width: 581px) {
     .vertical {
         position: absolute;
@@ -174,6 +181,37 @@
 }
 
 @media screen and (max-width: 749px) {
+/* Ipppoロゴ */
+	.vertical li img {
+		width: calc(100vw / 18.75);
+		right: 50px;
+	}
+/* メニューアイコン */
+	#ham {
+	    height: 80px;
+	    width: calc(100vw / 18.75 * 3);
+	}
+
+	#ham::before {
+	    top: 30px;
+	}
+	#ham::after {
+	    top: 50px;
+	}
+
+	#ham:hover::before {
+	    top: 32px;
+	}
+	#ham:hover::after {
+	    top: 48px;
+	}
+	/* クリック後 */
+	#ham.clicked::after,
+	#ham.clicked::before {
+	    top: 40px;
+	}
+
+/* メニュー本体 */
 	#global-nav {
 		overflow: scroll;
 		-webkit-overflow-scrolling: touch;
@@ -202,7 +240,7 @@
 		border-top: 1px solid #ededed;
 	}
 	#global-nav .main li .hoverArea p {
-		top: 50%;
+		top: 57%;
 		left: calc(100vw * 0.097);
 		transform: translateY(-50%);
 		font-size: 20px;
@@ -216,6 +254,7 @@
 		height: 1px;
 		left: 0;
 		bottom: -1px;
+		background: #fff;
 	}
 	#global-nav .main li .hoverArea p.show:before {
 		width: 10px;
@@ -240,23 +279,6 @@
 		mix-blend-mode: normal;
 		color: #000514;
 	}
-	#global-nav .lower .share {
-		margin-left: 0;
-		transform: none;
-		padding: 35px 0;
-		overflow: hidden;
-		border-bottom: 1px solid #ededed;
-		mix-blend-mode: normal;
-	}
-	#global-nav .lower .share li a {
-		display: block;
-		width: 40px;
-		height: 40px;
-		line-height: 34px;
-		border: 2px solid #eeeeee; }
-		#global-nav .lower .share li a svg path {
-		fill: #0e1827;
-	}
 	#global-nav .lower .copyright {
 		mix-blend-mode: normal;
 		font-size: 10px;
@@ -265,6 +287,16 @@
 	#global-nav .lower .copyright span {
 		display: block;
 	}
+	.menu_br {
+		display: none;
+	}
+
+/* 著作権表示部 */
+	#global-nav .lower {
+		left: calc(100vw * 0.097);
+		display: inline;
+	}
+
 }
 
 /* -------------------------------------------------------------------------------- */
