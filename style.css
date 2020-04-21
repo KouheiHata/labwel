@@ -887,6 +887,7 @@ input[type=checkbox], input[type=radio] {
     height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .bg-A-img1 {
     background-image: url(images/office_a-img1.png);
@@ -929,12 +930,16 @@ input[type=checkbox], input[type=radio] {
 }
 .a-box,.b-box {
     position: absolute;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 .a-box-title,.b-box-title {
     font-size: 60px;
-    margin: 40px;
 }
 .a-box-text,.b-box-text {
     font-size: 18px;
