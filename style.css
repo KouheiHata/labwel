@@ -570,9 +570,13 @@ body {
 }
 
 .carousel2 .carouselborder div {
-    width: 452px;
+    width: calc(100vw / 36 * 12);
     height: 10px;
     background: linear-gradient(to right, #f15a24, #ffff00);
+}
+
+.carousel2 div ul li img {
+    width: calc(100vw / 36 * 12);
 }
 
 .carousel3 {
@@ -669,7 +673,7 @@ body {
     margin-left: calc(100vw * 0.1);
     margin-right: calc(100vw *0.6);
     position: absolute;
-    top: calc(100vh * 0.3);
+    top: calc(100vh * 0.15);
 }
 #section04 .content-title {
     font-size:18px;

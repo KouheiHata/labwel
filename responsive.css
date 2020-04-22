@@ -379,9 +379,6 @@
     .carousel2 img {
         width: calc(100vw / 50 * 20);
     }
-    .carousel2 .carouselborder div {
-        width: calc(100vw / 50 * 20);
-    }
     #section02 .content {
         position: relative;
         top: calc(100vw / 50 * 55);

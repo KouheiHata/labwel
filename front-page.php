@@ -140,7 +140,7 @@
 
         <section id="section06">
             <!-- ブログ記事制作はまだのため見た目だけ整える -->
-            <div class="content">
+            <div class="content pb-3">
                 <p class="text-center font-weight-bold my-5">利用者さんの日々の活動はこちら</p>
                 <p>LABwelの新入社★</p>
                 <time class="mb-5"><?php echo get_the_date(); ?></time>
