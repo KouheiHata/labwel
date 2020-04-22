@@ -369,14 +369,11 @@
 /*--- セクション２のスタイル ---*/
 
 @media screen and (max-width: 990px) {
-    #section02 {
-        top: calc(100vw / 50 * 30);
-    }
     #section02 .bg {
         display: none;
     }
     .carousel2 {
-        top: calc(100vw / 50 * 30);
+        top: calc(100vw / 50 * 35);
     }
     
     .carousel2 img {
@@ -409,27 +406,42 @@
     .carousel3 .carouselborder div {
         left: 0;
     }
-    
+    /*セクション３*/
+    /*一旦の処理*/
     #section03 {
         top:200vh;
     }
     #section04 {
-        top: 200vh;
+        top: 400vh;
+    }
+    #section05 {
+        top: 400vh;
     }
 }
 @media screen and (max-width:990px) and (min-width: 771px) {
+    #section02 {
+        top: 250px;
+    }
     #section02 .content {
         margin-left: calc(100vw / 50 * 6);
         margin-right: calc(100vw / 50 * 6);
     }
 }
 @media screen and (max-width:770px) and (min-width: 581px) {
+    #section02 {
+        top: calc(100vw / 50 * 30);
+    }
     #section02 .content {
         margin-left: calc(100vw / 50 * 8);
         margin-right: calc(100vw / 50 * 8);
     }
     #section02 .content .button {
         left:calc(100vw / 50 * 19);
+    }
+}
+@media screen and (max-width: 580px) {
+    #section02 {
+        top: 480px;
     }
 }
 
