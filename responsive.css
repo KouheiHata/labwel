@@ -99,7 +99,16 @@
     }
     .carousel1 {
         width: calc(100vw / 50 * 35);
-        right: calc(100vw / 50 * 3.3);
+        right: calc(100vw / 50 * 4);
+    }
+}
+@media screen and (max-width: 580px) {
+    .vertical {
+        width: calc(100vw / 50 * 2);
+    }
+    .carousel1 {
+        width: calc(100vw / 50 * 40);
+        right: calc(100vw / 50 * 4);
     }
 }
 
@@ -140,8 +149,6 @@
 		background: #FFF;
 		animation: global-navHover 600ms ease;
 	}
-
-/* メニューマウスオーバー時の写真 */
 	#global-nav .main li._1 a:before {
 		background-image: url(images/menu_01.jpg);
 	}
@@ -279,6 +286,36 @@
 		mix-blend-mode: normal;
 		color: #000514;
 	}
+	#global-nav .lower .share {
+		margin-left: 0;
+		transform: none;
+		padding: 35px 0;
+		overflow: hidden;
+		border-bottom: 1px solid #ededed;
+		mix-blend-mode: normal;
+	}
+	#global-nav .lower .share li a {
+		display: block;
+		width: 40px;
+		height: 40px;
+		line-height: 34px;
+		border: 2px solid #eeeeee; }
+		#global-nav .lower .share li a svg path {
+		fill: #0e1827;
+	}
+	#global-nav .lower .staticLinks {
+		mix-blend-mode: normal;
+		padding: 29px 0 27px;
+		font-size: 16px;
+		margin-left: 0;
+	}
+	#global-nav .lower .staticLinks li {
+		float: none;
+	}
+	#global-nav .lower .staticLinks li + li {
+		margin-top: 12px;
+		margin-left: 0;
+	}
 	#global-nav .lower .copyright {
 		mix-blend-mode: normal;
 		font-size: 10px;
@@ -316,15 +353,8 @@
     .carousel2 {
         top: calc(100vh * 0.8);
     }
-    #section03 {
-        top:200vh;
-    }
-    #section04 {
-        top:150vh;
-    }
-}
-@media screen and (max-width:990px) and (min-width: 771px) {
-        .carousel2 img {
+    
+    .carousel2 img {
         width: calc(100vw / 50 * 20);
     }
     .carousel2 .carouselborder div {
@@ -356,11 +386,24 @@
     .carousel3 .carouselborder div {
         left: 0;
     }
+    
+    #section03 {
+        top:200vh;
+    }
+    #section04 {
+        top:150vh;
+    }
+}
+@media screen and (max-width:990px) and (min-width: 771px) {
+        
 }
 @media screen and (max-width:770px) and (min-width: 581px) {
     #section02 .content {
         margin-left: calc(100vw / 50 * 8);
         margin-right: calc(100vw / 50 * 8);
+    }
+    #section02 .content .button {
+        left:calc(100vw / 50 * 25);
     }
 }
 
