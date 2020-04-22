@@ -522,7 +522,7 @@ body {
     position: absolute;
     width: calc(100vw / 36 * 20);
     top: 0;
-    right: 85px;
+    right: calc(100vw / 36 * 3);
     bottom: 0;
 }
 /*
