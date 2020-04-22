@@ -522,7 +522,7 @@ body {
     position: absolute;
     width: calc(100vw / 36 * 20);
     top: 0;
-    right: calc(100vw / 50 * 2.4);
+    right: 85px;
     bottom: 0;
 }
 /*
@@ -657,7 +657,7 @@ body {
 }
 #section04 .bg {
     width: calc(100vw / 36 * 16);
-    height:120vh;
+    height: 130%;
     background: #0e1827;
     position: absolute;
     top: 0;
