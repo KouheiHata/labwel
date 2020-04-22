@@ -700,7 +700,7 @@ body {
 /*セクション５のスタイル*/
 
 #section05 {
-    margin-top: calc(100vw / 40 * 15);
+    margin-top: calc(100vw / 50 * 15);
     position: relative;
 }
 
@@ -727,8 +727,8 @@ body {
     white-space: pre-line;
     position: relative;
     left: 60%;
-    bottom: 95vh;
-    margin-bottom: calc(-100vh / 30 * 18);
+    bottom: calc(100vw / 50 * 20);
+    margin-bottom: calc(-100vw / 50 * 10);
 }
 #section05 .content-title {
     font-weight: bold;

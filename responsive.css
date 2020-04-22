@@ -72,6 +72,14 @@
     #section01 .bg {
         display: none;
     }
+    .l-text01 h1,
+    .l-text01 h1cover {
+        top: calc(100vw / 50 * 17);
+    }
+    #section01 .carouselborder {
+        position: absolute;
+        top: calc(100vw / 50 * 10)
+    }
 }
 
 @media screen and (max-width: 990px) and (min-width: 771px) {
@@ -339,7 +347,15 @@
 /* -------------------------------------------------------------------------------- */
 /*	6. Button
 /* -------------------------------------------------------------------------------- */
-
+@media screen and (max-width: 990px) and (min-width: 771px) {
+    .content .button {
+        padding-top: calc(100vw / 50 * 10);
+        padding-right: calc(100vw / 50 * 15);
+        padding-left: calc(100vw / 50 * 5);
+        padding-bottom: calc(100vw / 50 * 10);
+    }
+}
+@media screen and (max-width: 770px) and (min-width: 581px) {}
 
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
@@ -347,11 +363,14 @@
 /*--- セクション２のスタイル ---*/
 
 @media screen and (max-width: 990px) {
+    #section02 {
+        top: calc(100vw / 50 * 30);
+    }
     #section02 .bg {
         display: none;
     }
     .carousel2 {
-        top: calc(100vh * 0.8);
+        top: calc(100vw / 50 * 30);
     }
     
     .carousel2 img {
@@ -362,7 +381,7 @@
     }
     #section02 .content {
         position: relative;
-        top: calc(100vh * 1.65);
+        top: calc(100vw / 50 * 55);
         margin-left: calc(100vw / 50 * 4);
         margin-right: calc(100vw / 50 * 4);
     }
@@ -380,7 +399,7 @@
         left: calc(100vw / 50 * 30);
     }
     .carousel3 {
-        top: calc(100vh * 1.25);
+        top: calc(100vw / 50 * 40);
         right: calc(100vw / 50 * 5.9);
     }
     .carousel3 .carouselborder div {

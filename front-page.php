@@ -3,7 +3,7 @@
 <div class="wrapper">
     <main id="main">
 
-        <section id="section01" class="section01" style="">
+        <section id="section01" class="section01">
             <div class="bg">
                 <div></div>
             </div>
