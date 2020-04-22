@@ -538,27 +538,27 @@
     .table td, .table th {
         font-size: 16px !important;
     }
-    .b-topbox {
+    .b-topbox,.a-topbox {
         padding-top: 80px;
     }
-    .b-topbox div img {
+    .b-topbox div img,.a-topbox div img {
         width: 100% !important;
     }
-    .b-toptext {
+    .b-toptext,.a-toptext {
         font-size: 18px !important;
         font-weight: 500 !important;
         line-height: 1.5;
         letter-spacing: .005em;
         padding-bottom: 110px;
     } 
-    .b-box-title {
+    .b-box-title,.a-box-title {
         font-size: 30px;
         font-weight: 500 !important;
     }
     .a-box-text,.b-box-text {
         font-size: 16px;
     }
-    .b-wrapper {
+    .b-wrapper,.a-wrapper {
         padding-bottom: 100px;
     }
 }
@@ -648,14 +648,14 @@
     .table td, .table th {
         font-size: 16px !important;
     }
-   .b-topbox {
+   .b-topbox,.a-topbox {
         padding-top: 120px;
         padding-bottom: 50px;
     }
-    .b-topbox div img {
+    .b-topbox div img,.a-topbox div img {
         width: 100% !important;
     }
-    .b-toptext {
+    .b-toptext,.a-toptext {
         font-size: 24px !important;
         font-weight: 500 !important;
         line-height: 1.5;
@@ -664,14 +664,14 @@
         padding-left: 50px;
         padding-right: 50px;
     } 
-    .b-box-title {
+    .b-box-title,.a-box-title {
         font-size: 40px;
         font-weight: 500 !important;
     }
     .a-box-text,.b-box-text {
         padding: 20px;
     }
-    .b-wrapper {
+    .b-wrapper,.a-wrapper {
         padding-bottom: 200px;
     }
 }
@@ -699,14 +699,14 @@
         padding-top: 100px;
         padding-bottom: 40px;
     }
-    .b-topbox {
+    .b-topbox,.a-topbox {
         padding-top: 120px;
         padding-bottom: 50px;
     }
-    .b-topbox div img {
+    .b-topbox div img,.a-topbox div img {
         width: 80% !important;
     }
-    .b-toptext {
+    .b-toptext,.a-toptext {
         font-size: 24px !important;
         font-weight: 500 !important;
         line-height: 1.5;
@@ -715,14 +715,14 @@
         padding-left: 50px;
         padding-right: 50px;
     } 
-    .b-box-title {
+    .b-box-title,.a-box-title {
         font-size: 40px;
         font-weight: 500 !important;
     }
     .a-box-text,.b-box-text {
         padding: 20px;
     }
-    .b-wrapper {
+    .b-wrapper,.a-wrapper {
         padding-bottom: 200px;
     }
 }
