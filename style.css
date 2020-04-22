@@ -597,7 +597,7 @@ body {
     font-family: "Noto Sans JP", sans-serif;
     white-space: pre-line;
     line-break: normal;
-    padding-top: calc(100vw * 0.3);
+    padding-top: calc(100vw * 0.38);
     margin-left: calc(100vw / 36 * 15);
     margin-right: calc(100vw / 36 * 12);
 }
@@ -645,7 +645,7 @@ body {
 /*--- セクション３のスタイル ---*/
 
 #section03 {
-    margin-top: 150px;
+    margin-top: calc(100vw / 50 * 10);
     position: relative;
     left: 20%;
 
