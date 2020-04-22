@@ -591,8 +591,8 @@ body {
 .carousel3 .carouselborder div {
     position: absolute;
     top: 0;
-    left: 25%;
-    width: 13px;
+    left: calc(100vw / 50 * 4);
+    width: 15px;
     height: 402px;
     background: linear-gradient(#8cc63f, #ffff00);
 }

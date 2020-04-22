@@ -404,13 +404,28 @@
         left: 0;
     }
     /*セクション３*/
-    /*一旦の処理*/
     #section03 {
-        top:200vh;
+        top: calc(100vw / 50 * 75);
+        left: 0;
     }
+    #section03 img {
+        width: 100vw;
+    }
+    /*セクション４のスタイル*/
     #section04 {
-        top: 400vh;
+        top: calc(100vw / 50 * 75);
     }
+    #section04 .bg {
+        width: 100vw;
+        left: 0;
+        z-index: -1;
+    }
+    #section04 .content {
+        background: #fff;
+        top: 90px;
+        margin-right: calc(100vw * 0.1);
+    }
+    /*一旦の処理*/
     #section05 {
         top: 400vh;
     }
@@ -441,7 +456,16 @@
         top: 480px;
     }
 }
-
+/*セクション３のスタイル*/
+@media screen and (max-width: 990px) {}
+@media screen and (max-width: 770px) {
+    #section03 {
+        top: calc(100vw / 50 * 85);
+    }
+    #section03 img {
+        width: 100%;
+    }
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	8. Archive Page
