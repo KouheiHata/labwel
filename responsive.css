@@ -349,13 +349,19 @@
 /* -------------------------------------------------------------------------------- */
 @media screen and (max-width: 990px) and (min-width: 771px) {
     .content .button {
-        padding-top: calc(100vw / 50 * 10);
-        padding-right: calc(100vw / 50 * 15);
-        padding-left: calc(100vw / 50 * 5);
-        padding-bottom: calc(100vw / 50 * 10);
+        font-size: calc(100vw / 200 * 4);
+        padding-top: calc(100vw / 200 * 4);
+        padding-right: calc(100vw / 200 * 40);
+        padding-left: calc(100vw / 200 * 5);
+        padding-bottom: calc(100vw / 200 * 4);
     }
 }
-@media screen and (max-width: 770px) and (min-width: 581px) {}
+@media screen and (max-width: 770px) and (min-width: 581px) {
+    .content .button {
+        font-size: 2vw;
+        padding: 3vw 18vw 3vw 3vw;
+    }
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
@@ -382,21 +388,19 @@
     #section02 .content {
         position: relative;
         top: calc(100vw / 50 * 55);
-        margin-left: calc(100vw / 50 * 4);
-        margin-right: calc(100vw / 50 * 4);
     }
     #section02 .content-title {
         font-size: 18px;
         font-weight: bold;
     }
     #section02 .content-title::before {
-        padding: 1px calc(100vw / 50 * 10) 0;
+        padding: 1px calc(100vw / 50 * 5) 0;
     }
     #section02 .content-text {
         line-height: 3rem;
     }
     #section02 .content .button {
-        left: calc(100vw / 50 * 30);
+        left: calc(100vw / 50 * 20);
     }
     .carousel3 {
         top: calc(100vw / 50 * 40);
@@ -410,11 +414,14 @@
         top:200vh;
     }
     #section04 {
-        top:150vh;
+        top: 200vh;
     }
 }
 @media screen and (max-width:990px) and (min-width: 771px) {
-        
+    #section02 .content {
+        margin-left: calc(100vw / 50 * 6);
+        margin-right: calc(100vw / 50 * 6);
+    }
 }
 @media screen and (max-width:770px) and (min-width: 581px) {
     #section02 .content {
@@ -422,7 +429,7 @@
         margin-right: calc(100vw / 50 * 8);
     }
     #section02 .content .button {
-        left:calc(100vw / 50 * 25);
+        left:calc(100vw / 50 * 19);
     }
 }
 

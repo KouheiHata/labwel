@@ -639,6 +639,7 @@ body {
 }
 #section02 .content .button {
     position: relative;
+    top: 2rem;
     left: 31%;
 }
 
