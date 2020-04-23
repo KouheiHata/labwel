@@ -10,7 +10,7 @@ Template Name: labwelA型事業所ページ
 
 <div class="container">
     <div class="row">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt80 pb50">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt80 pb50 a-topbox">
             <div class="text-center">
                 <img src="<?php echo esc_url( get_theme_file_uri('images/office_a-topimg.png') ); ?>" width="70%">
             </div>
@@ -21,7 +21,7 @@ Template Name: labwelA型事業所ページ
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid a-wrapper">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img1">
             <div class="a-box">
