@@ -947,7 +947,7 @@ input[type=checkbox], input[type=radio] {
     font-size: 60px;
 }
 .a-box-text,.b-box-text {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.8;
     letter-spacing: .08em;
 }
@@ -958,6 +958,13 @@ input[type=checkbox], input[type=radio] {
 }
 .a-box-img img {
     width: 60%;
+}
+.a-lineqrbox {
+    padding-top: 20px;
+}
+.a-box-lineqr {
+    font-size: 18px;
+    border-bottom: solid 2px #fff;
 }
 .a-link,.b-link {
     position: absolute;

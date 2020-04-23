@@ -25,55 +25,47 @@ Template Name: labwelA型事業所ページ
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img1">
             <div class="a-box">
-                <p class="text-center text-white font-weight-bolder a-box-title">戸別収集</p>
-                <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+                <p class="text-white font-weight-bolder a-box-title">戸別収集</p>
+                <p class="text-white a-box-text">一般廃棄物収集・運搬許可をいただき、<br class="d-none d-xl-block">一般家庭から出る不用品の回収等を行っております。</p>
+                <div class="d-block d-md-none a-lineqrbox"><a href="<?php echo esc_url( get_theme_file_uri('images/office_a-qr.png') ); ?>" download="LINEQRcode" class="text-white a-box-lineqr">お見積もり用LINE&nbsp;&nbsp;QRコード</a></div>
             </div>
             <div class="a-box-img">
                 <img src="<?php echo esc_url( get_theme_file_uri('images/office_a-qr.png') ); ?>">
             </div>
-            <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img2">
             <div class="a-box">
-                <p class="text-center text-white font-weight-bolder a-box-title">海岸清掃</p>
-                <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+                <p class="text-white font-weight-bolder a-box-title">海岸清掃</p>
+                <p class="text-white a-box-text">敦賀市の委託事業で東浦一帯の海岸清掃を任されています。</p>
             </div>
-            <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img3">
             <div class="a-box">
-                <p class="text-center text-white font-weight-bolder a-box-title">高齢者生活支援</p>
-                <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+                <p class="text-white font-weight-bolder a-box-title">高齢者生活支援</p>
             </div>
-            <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img4">
             <div class="a-box">
-                <p class="text-center text-white font-weight-bolder a-box-title">洗濯・クリーニング</p>
-                <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+                <p class="text-white font-weight-bolder a-box-title">洗濯・クリーニング</p>
             </div>
-            <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img5">
             <div class="a-box">
-                <p class="text-center text-white font-weight-bolder a-box-title">寺院清掃</p>
-                <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+                <p class="text-white font-weight-bolder a-box-title">寺院清掃</p>
+                <p class="text-white a-box-text">草むしりや落ち葉掃きなどの通常清掃に加え、法要前の集中清掃や、<br>檀家さんへの案内状の折り込みなども任されております。</p>
             </div>
-            <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img6">
             <div class="a-box">
-                <p class="text-center text-white font-weight-bolder a-box-title">お弁当の調理・販売</p>
-                <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+                <p class="text-white font-weight-bolder a-box-title">お弁当の調理・販売</p>
+                <p class="text-white a-box-text">毎日100食以上の仕出し弁当を調理販売しております。<br>主力の500円弁当はお客様からの支持も厚く、口コミで多くのご注文をいただく様になりました。<br>催事や法事用の1000円～2000円の仕出し弁当も人気です。<br>和・洋、ちらし寿司、創作丼など種類も豊富に取り揃えております。</p>
             </div>
-            <a href="#" class="a-link"></a>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-A-img7">
             <div class="a-box">
-                <p class="text-center text-white font-weight-bolder a-box-title">ケータリング</p>
-                <p class="text-center text-white a-box-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストキスト</p>
+                <p class="text-white font-weight-bolder a-box-title">ケータリング</p>
+                <p class="text-white a-box-text">様々な催事で、飲食のみならず、昆布かきの実演など主催者様と綿密な打ち合わせを行い、<br>多種多様な内容で出店させていただいております。</p>
             </div>
-            <a href="#" class="a-link"></a>
         </div>
     </div>
 </div>
