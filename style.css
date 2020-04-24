@@ -772,7 +772,7 @@ body {
 }
 
 /*-------------------------------
-    pageのスタイル
+4.pageのスタイル
 ---------------------------------*/
 .testimg {
     z-index: -999;
@@ -780,9 +780,6 @@ body {
     top: -20px;
     opacity: .7;
 }
-/*---------------------------------
-    singleのスタイル 
-----------------------------------*/
 .pt65 {
    padding-top: 65px; 
 }
@@ -974,7 +971,75 @@ input[type=checkbox], input[type=radio] {
     height: 100%;
     text-indent:-999px;
 }
-/*--- footerのスタイル ---*/
+/*---------------------------------
+5.singleのスタイル 
+----------------------------------*/
+.single-container {
+    padding-left: 0 !important;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.single-box {
+    max-width: 650px;
+}
+.single-title {
+    line-height: .6em;
+    border-bottom: 10px solid;
+    border-image: linear-gradient(to right, #f15a24 0%, #ffff00 100%);
+    border-image-slice: 1;
+    padding-bottom: 22px;
+    margin-bottom: 18px;
+}
+.single-sub {
+    padding-bottom: 45px;
+}
+.single-time {
+    padding-right: 40px;
+}
+.single-content {
+    padding-top: 30px;
+}
+.single-content p {
+    font-size: 18px;
+}
+/*---投稿ナビゲーションのスタイル---*/
+.post-navigation {
+    max-width: 650px;
+}
+.screen-reader-text {
+    display: none;
+}
+.nav-previous,.nav-next {
+    padding-top: 70px;
+}
+.nav-previous a,.nav-next a {
+    color: #0e1827;
+    font-size: 20px;
+    transition: .3s;
+}
+.nav-previous a:hover,.nav-next a:hover {
+    opacity: .4;
+}
+.nav-previous {
+    float: left;
+}
+.nav-next {
+    float: right;
+}
+/*---サイドバーのスタイル---*/
+/*--検索ボックス--*/
+#searchform div input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #0e1827;
+}
+#searchsubmit {
+    color: #fff;
+    background-color: #0e1827;
+}
+/*---------------------------------------------
+ 6.footerのスタイル
+-----------------------------------------------*/
 .pl90 {
     padding-left: 90px;
 }
@@ -997,5 +1062,6 @@ input[type=checkbox], input[type=radio] {
     padding-bottom: 25px;
     background-color: rgba(4, 6, 6, 1);
 }
+
 
 /*# sourceMappingURL=main.css.map */
