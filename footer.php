@@ -62,6 +62,11 @@ var swiper = new Swiper ('.swiper-container', {
 });
 </script>
 
+<!-- 検索エリアボタン変更 -->
+<script>
+$('#searchsubmit').val('\uf002')
+</script>
+
 <?php wp_footer(); ?>
 </body>
 
