@@ -63,17 +63,17 @@ wp_deregister_script('jquery');
 			                </a>
 			            </li>
 			            <li class="_2">
-			                <a href="/about/" class="hoverArea">
+			                <a href="/company" class="hoverArea">
 			                    <p class="gillSansNovaMedium">会社概要</p>
 			                </a>
 			            </li>
 			            <li class="_3">
-			                <a href="/a-gata/" class="hoverArea">
+			                <a href="/office-a" class="hoverArea">
 			                    <p class="gillSansNovaMedium">就労継続支援<br class="menu_br" />Ａ型事業所</p>
 			                </a>
 			            </li>
 			            <li class="_4">
-			                <a href="/b-gata/" class="hoverArea">
+			                <a href="/office-b" class="hoverArea">
 			                    <p class="gillSansNovaMedium">就労継続支援<br class="menu_br" />Ｂ型事業所</p>
 			                </a>
 			            </li>
