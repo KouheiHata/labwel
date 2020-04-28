@@ -61,8 +61,8 @@
             <div class="content">
                 <p class="content-title">CONCEPT</p>
                 <p class="content-text mt60">株式会社LABwelは、
-                    お仕事を通して自分の存在価値・やる気新たな能力の発見など、利用者さんの成長に繋がる自立支援をサポートする会社です。</p><br />
-                <a href="#" class="button">MORE</a>
+                    お仕事を通して自分の存在価値・やる気新たな能力の発見など、利用者さんの成長に繋がる自立支援をサポートする会社です。</p>
+                <a href="<?php echo esc_url(home_url( '/company' )); ?>" class="button">MORE</a>
 
             </div>
         </section>
@@ -80,12 +80,13 @@
                 <h2>
                     <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo_06.png') ); ?>" alt="">
                     <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="">
+                    <br class="d-lg-none">
                     <img src="<?php echo esc_url( get_theme_file_uri('images/a-copy_03.png') ); ?>" alt="">
                 </h2>
                 <p class="content-text">バリエーション豊富なお仕事内容だから
                     自分のやりがいにつながる得意なお仕事が
                     きっと見つかります。</p>
-                <a href="#" class="button">MORE</a>
+                <a href="<?php echo esc_url(home_url( '/office-a' )); ?>" class="button">MORE</a>
             </div>
             <div class="slide-content">
             <div class="swiper-container">
@@ -117,6 +118,7 @@
                 </div>
             </div>
             </div>
+            <a href="<?php echo esc_url(home_url('/office-a')); ?>" class="m-button d-ml-none">MORE</a>
         </section>
 
         <section id="section05">
@@ -134,7 +136,7 @@
                 <p class="content-text">みんなと仕事をするのが楽しくなる。
                     そんな働きやすい環境と楽しい人間関係づくりに
                     こだわりました。</p>
-                <a href="#" class="button">MORE</a>
+                <a href="<?php echo esc_url(home_url('/office-b')); ?>" class="button">MORE</a>
             </div>
         </section>
 

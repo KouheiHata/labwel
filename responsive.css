@@ -366,9 +366,9 @@
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
-/*--- セクション２のスタイル ---*/
 
 @media screen and (max-width: 990px) {
+    /*--- セクション２のスタイル ---*/
     #section02 .bg {
         display: none;
     }
@@ -414,6 +414,7 @@
     /*セクション４のスタイル*/
     #section04 {
         top: calc(100vw / 50 * 75);
+        max-height: 1000px;
     }
     #section04 .bg {
         width: 100vw;
@@ -423,23 +424,81 @@
     #section04 .content {
         background: #fff;
         top: 90px;
-        margin-right: calc(100vw * 0.1);
     }
-    /*一旦の処理*/
+    #section04 .content-title,
+    #section04 .content h2 {
+        text-align: center;
+    }
+    /*セクション5*/
     #section05 {
-        top: 400vh;
+        top: 2000px;
+    }
+    #section05 .content-title {
+        font-size: 18px;
+    }
+    #section05 .content-title::before {
+        border-bottom: 1.5px solid #333;
+        padding: 1px 6vw 0;
+    }
+    #section05 .itemimage img:first-child {
+        position: relative;
+        top: 200px;
+        left: calc(100vw / 50 * 30);
+    }
+    #section05 .itemimage img:nth-child(2) {
+        position: absolute;
+        width: 300px;
+        left: calc(100vw / 50 * 5);
+    }
+    #section05 .content {
+        top: 250px;
+        left: calc(100vw / 50 * 5);
+    }
+    #section05 .content-text {
+        padding-bottom: calc(100vw / 50 * 2);
+    }
+    #section06 {
+        position: relative;
+        top: 2500px;
     }
 }
 @media screen and (max-width:990px) and (min-width: 771px) {
+    /*セクション２*/
     #section02 {
-        top: 250px;
+        top: 200px;
     }
     #section02 .content {
         margin-left: calc(100vw / 50 * 6);
         margin-right: calc(100vw / 50 * 6);
     }
+    /*セクション４*/
+    #section04 .bg {
+        height: 160vw;
+    }
+    #section04 .content {
+        padding: 20px 40px 0 40px;
+        margin-left: calc(100vw * 0.25);
+        margin-right: calc(100vw * 0.25);
+    }
+    #section04 .content .button {
+        display: none;
+    }
+    #section04 .slide-content {
+        top: calc(100vw / 50 * 30);
+        left: calc(100vw / 50 * 12.5);
+    }
+    #section04 .slide-content img {
+        width: 500px;
+    }
+    #section04 .m-button {
+        top: calc(100vw / 50 * 35);
+        left: calc(100vw / 50 * 18);
+    }
+}
+@media screen and (max-width: 770px) {
 }
 @media screen and (max-width:770px) and (min-width: 581px) {
+    /*セクション２*/
     #section02 {
         top: calc(100vw / 50 * 30);
     }
@@ -450,6 +509,32 @@
     #section02 .content .button {
         left:calc(100vw / 50 * 19);
     }
+    /*セクション4*/
+    #section04 .bg {
+        height: 240vw;
+    }
+    #section04 .content {
+        top: calc(100vw / 50 * 18);
+        padding: 5vw 5vw 0;
+        margin-left: calc(100vw / 50 * 8);
+        margin-right: calc(100vw / 50 * 8);
+    }
+    #section04 .slide-content {
+        top: calc(100vw / 50 * 47);
+        left: calc(100vw / 50 * 8);
+    }
+    #section04 .swiper-slide img {
+        width: 490px;
+    }
+    #section04 .content .button {
+        display: none;
+    }
+    #section04 .m-button {
+        top: 105vw;
+        left: calc(100vw / 50 * 18);
+    }
+    /*セクション5*/
+
 }
 @media screen and (max-width: 580px) {
     #section02 {
