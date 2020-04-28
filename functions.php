@@ -26,20 +26,14 @@ function custom_theme_setup() {
 add_action( 'after_setup_theme', 'custom_theme_setup' );
 
 
-//ウィジェットエリアの登録 現状でこれを使うとwordpressが動かない
-/*function custom_widget_register {
-    register_sidebar( array(
-    'name'          => 'ウィジェットエリア',
-    'id'            => 'sidebar-widget',  //ウィジェットを呼び出すときはこのidを使う
-    'description'   => 'ブログページのサイドバーに表示されます。',
-    'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h2 class="widget_title">',
-    'after_title'   => '</h2>',
-    )
-    );
+//ウィジェットエリアの登録 
+function my_theme_widgets_init() {
+  register_sidebar( array(
+    'name' => 'Main Sidebar',
+    'id' => 'main-sidebar',
+  ) );
 }
-add_action( 'widgets_init', 'custom_widget_register' ); */
+add_action( 'widgets_init', 'my_theme_widgets_init' );
 
 function enqueue_scripts() {
     //CSS
@@ -52,6 +46,12 @@ function enqueue_scripts() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_scripts' );
 
+//アーカイブ
+function custom_archives( $args ) {
+     $args['type'] = 'yearly';
+     return $args;
+ }
+ add_filter( 'widget_archives_args', 'custom_archives' );
 
 //西暦和暦変換
 function wareki($ymd)
