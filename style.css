@@ -829,9 +829,6 @@ body {
     top: -20px;
     opacity: .7;
 }
-<<<<<<< Updated upstream
-=======
-
 /*---------------------------------
     singleのスタイル 
 ----------------------------------*/
@@ -1062,15 +1059,9 @@ input[type=radio] {
 .b-box-title {
     font-size: 60px;
 }
-<<<<<<< Updated upstream
-.a-box-text,.b-box-text {
-    font-size: 24px;
-=======
-
 .a-box-text,
 .b-box-text {
     font-size: 18px;
->>>>>>> Stashed changes
     line-height: 1.8;
     letter-spacing: .08em;
 }
@@ -1084,7 +1075,6 @@ input[type=radio] {
 .a-box-img img {
     width: 60%;
 }
-<<<<<<< Updated upstream
 .a-lineqrbox {
     padding-top: 20px;
 }
@@ -1092,12 +1082,8 @@ input[type=radio] {
     font-size: 18px;
     border-bottom: solid 2px #fff;
 }
-.a-link,.b-link {
-=======
-
 .a-link,
 .b-link {
->>>>>>> Stashed changes
     position: absolute;
     top: 0;
     left: 0;
@@ -1105,7 +1091,6 @@ input[type=radio] {
     height: 100%;
     text-indent: -999px;
 }
-<<<<<<< Updated upstream
 /*---------------------------------
 5.singleのスタイル 
 ----------------------------------*/
@@ -1184,13 +1169,80 @@ input[type=radio] {
     font-weight: 900;
     background-color: #0e1827;
 }
+/*--アーカイブ--*/
+.archive-box {
+    padding-top: 80px;
+}
+.archive-title {
+    font-size: 24px;
+}
+.archive-title:before{
+    content: '';
+    display: inline-block;
+    background-color: #0e1827;
+    height: 20px;
+    width: 4px;
+    margin-right: 6px;
+}
+.archive-box {
+    max-width: 600px;
+}
+.archive-box a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
+.archive-box label {
+    display: block;
+    margin: 0 0 4px 0;
+    padding : 15px;
+    line-height: 1;
+    color :#fff;
+    background : green;
+    cursor :pointer;
+}
+.archive-box input {
+    display: none;
+}
+.archive-box ul {
+    margin: 0;
+    padding: 0;
+    background :#f4f4f4;
+    list-style: none;
+}
+.archive-box li {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.archive-check:checked ~ .archive-list li {
+    height: 54px;
+    opacity: 1;
+}
+/*--タグ--*/
+.tegs-box {
+    padding-top: 20px;
+}
+.tegs-box p {
+    font-size: 20px;
+}
+.tegs-box a {
+    font-size: 16px !important;
+    color: #0e1827;
+    transition: .3s;
+}
+.tegs-box a:hover {
+    opacity: .4;
+}
 /*---------------------------------------------
  6.footerのスタイル
 -----------------------------------------------*/
-=======
-
 /*--- footerのスタイル ---*/
->>>>>>> Stashed changes
 .pl90 {
     padding-left: 90px;
 }
