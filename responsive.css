@@ -338,7 +338,7 @@
 /* -------------------------------------------------------------------------------- */
 @media screen and (max-width: 990px) and (min-width: 771px) {
     .content .button {
-        font-size: calc(100vw / 200 * 4);
+        font-size: 18px;
         padding-top: calc(100vw / 200 * 4);
         padding-right: calc(100vw / 200 * 40);
         padding-left: calc(100vw / 200 * 5);
@@ -347,7 +347,7 @@
 }
 @media screen and (max-width: 770px) and (min-width: 581px) {
     .content .button {
-        font-size: 2vw;
+        font-size: 16px;
         padding: 3vw 18vw 3vw 3vw;
     }
 }
@@ -403,7 +403,7 @@
     /*セクション４のスタイル*/
     #section04 {
         top: calc(100vw / 50 * 75);
-        max-height: 1000px;
+        height: 1000px;
     }
     #section04 .bg {
         width: 100vw;
@@ -418,6 +418,7 @@
     #section04 .content h2 {
         text-align: center;
     }
+
     /*セクション5*/
     #section05 {
         top: 2000px;
@@ -462,19 +463,19 @@
     }
     /*セクション４*/
     #section04 .bg {
-        height: 160vw;
+        height: 1550px;
     }
     #section04 .content {
         padding: 20px 40px 0 40px;
-        margin-left: calc(100vw * 0.25);
-        margin-right: calc(100vw * 0.25);
+        margin-left: calc(100vw / 50 * 12);
+        margin-right: calc(100vw / 50 * 12);
     }
     #section04 .content .button {
         display: none;
     }
     #section04 .slide-content {
         top: calc(100vw / 50 * 30);
-        left: calc(100vw / 50 * 12.5);
+        left: calc(100vw / 50 * 12);
     }
     #section04 .slide-content img {
         width: 500px;
@@ -500,7 +501,7 @@
     }
     /*セクション4*/
     #section04 .bg {
-        height: 240vw;
+        height: 1650px;
     }
     #section04 .content {
         top: calc(100vw / 50 * 18);
@@ -526,20 +527,67 @@
 
 }
 @media screen and (max-width: 580px) {
+    /* セクション2 */
     #section02 {
         top: 480px;
     }
-}
-/*セクション３のスタイル*/
-@media screen and (max-width: 990px) {}
-@media screen and (max-width: 770px) {
+    #section02 .content {
+        top: calc(100vw / 50 * 60);
+        margin-left: calc(100vw / 50 * 5);
+        margin-right: calc(100vw / 50 * 5);
+    }
+    /* セクション3 */
     #section03 {
-        top: calc(100vw / 50 * 85);
+        top: 190vw;
     }
-    #section03 img {
-        width: 100%;
+    /* セクション4 */
+    #section04 {
+        top: calc(100vw / 50 * 90);
+    }
+    #section04 .bg {
+        height: 270vw;
+    }
+    #section04 .content {
+        padding: 3vw;
+        margin-left: calc(100vw / 50 * 3);
+        margin-right: calc(100vw / 50 * 3);
+    }
+    #section04 .content .button {
+        display: none;
+    }
+    #section04 .slide-content {
+        top: calc(100vw / 50 * 61);
+        left: calc(100vw / 50 * 4);
+    }
+    #section04 .slide-content img {
+        width: calc(100vw / 50 * 38.888);
+    }
+    #section04 .m-button {
+        top: calc(100vw / 50 * 66);
+        left: calc(100vw / 50 * 15);
+        right: calc(100vw / 50 * 15);
+    }
+    /* セクション5 */
+    #section05 {
+        top: 250vw;
+    }
+    #section05 .itemimage img:first-child {
+        top: 95vw;
+        left: calc(100vw / 50 * 9);
+    }
+    #section05 .itemimage img:nth-child(2) {
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+    #section05 .content {
+        top: 100vw;
+    }
+    #section06 {
+        top: 380vw;
     }
 }
+
 
 /* -------------------------------------------------------------------------------- */
 /*	8. Archive Page
@@ -894,6 +942,9 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 575.98px) {
+    #footer {
+        top: 380vw;
+    }
     .footer-logo1 {
         width: 130px !important;
     }
@@ -921,6 +972,9 @@
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px){
+    #footer {
+        top: 2500px;
+    }
     .footer-logo1 {
         width: 130px !important;
     }
@@ -946,6 +1000,9 @@
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px){
+    #footer {
+        top: 2500px;
+    }
     .footer-logo {
         padding-left: 45px;
         padding-bottom: 50px;

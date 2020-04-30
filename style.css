@@ -24,7 +24,6 @@ html {
 
 html,
 body {
-    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -837,7 +836,6 @@ body {
 /*---------------------------------
     singleのスタイル 
 ----------------------------------*/
->>>>>>> Stashed changes
 .pt65 {
     padding-top: 65px;
 }
@@ -1064,6 +1062,7 @@ input[type=radio] {
 .b-box-title {
     font-size: 60px;
 }
+
 .a-box-text,
 .b-box-text {
     font-size: 18px;
@@ -1087,6 +1086,7 @@ input[type=radio] {
     font-size: 18px;
     border-bottom: solid 2px #fff;
 }
+
 .a-link,
 .b-link {
     position: absolute;
@@ -1247,7 +1247,16 @@ input[type=radio] {
 /*---------------------------------------------
  6.footerのスタイル
 -----------------------------------------------*/
+<<<<<<< Updated upstream
 /*--- footerのスタイル ---*/
+=======
+
+/*--- footerのスタイル ---*/
+#footer {
+    position: relative; /* 追加：山口　4/30 */
+}
+
+>>>>>>> Stashed changes
 .pl90 {
     padding-left: 90px;
 }
