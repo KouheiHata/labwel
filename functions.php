@@ -41,6 +41,11 @@ function enqueue_scripts() {
         //レスポンシブＣＳＳ
     wp_enqueue_style('responsive', get_template_directory_uri().'/responsive.css' );
     //javascript
+    wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.4.1.min.js', array(), '', true);
+    wp_enqueue_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper-utils.min.js', array(), '', true);
+    wp_enqueue_script('bootstrap4', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', array(), '', true);
+    //swiper
+    wp_enqueue_script('swiper', get_template_directory_uri().'/js/swiper.min.js', array(), '', true);
     wp_enqueue_script('mainjs', get_stylesheet_directory_uri().'/js/main.js',array(),'',true
     );
 }

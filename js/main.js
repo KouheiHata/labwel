@@ -29,3 +29,16 @@ $(function(){
         return false;
     });
 });
+
+var swiper = new Swiper ('.swiper-container', {
+    navigation: {
+        nextE1: '.swiper-button-next',
+        prevE1: '.swiper-button-prev',
+    },
+    effect: "fade", //フェードさせる
+    loop: true,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction :false,
+    },
+});
