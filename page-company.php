@@ -21,7 +21,7 @@ Template Name: labwel会社概要ページ
                         <td>株式会社LABwel</td>
                     </tr>
                     <tr>
-                        <th scope="row">代表者</th>
+                        <th scope="row">代表取締役</th>
                         <td>津田一彦</td>
                     </tr>
                     <tr>

@@ -66,6 +66,25 @@ var swiper = new Swiper ('.swiper-container', {
 $('#searchsubmit').val('\uf002')
 </script>
 
+<!-- アーカイブに連番を振る -->
+<script>
+    $(function(){
+        $('.accordion').each(function(i){
+            $(this).attr('id','menu_bar' + (i+1));
+        });
+    });
+    $(function(){
+        $('.archive-year').each(function(i){
+            $(this).attr('for','menu_bar' + (i+1));
+        });
+    });
+    $(function(){
+        $('.archive-box ul').each(function(i){
+            $(this).attr('class','archive-list' + (i+1));
+        });
+    });
+</script>
+
 <?php wp_footer(); ?>
 </body>
 

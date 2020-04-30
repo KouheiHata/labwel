@@ -53,6 +53,11 @@ function custom_archives( $args ) {
  }
  add_filter( 'widget_archives_args', 'custom_archives' );
 
+//ループ回数を取得
+function loopNumber(){
+    global $wp_query;
+    return $wp_query->current_post+1;
+}
 //西暦和暦変換
 function wareki($ymd)
 {

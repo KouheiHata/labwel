@@ -1190,22 +1190,27 @@ input[type=radio] {
     margin-right: 6px;
 }
 .archive-box {
-    max-width: 600px;
+    max-width: 200px;
 }
 .archive-box a {
     display: block;
-    padding: 15px;
+    max-width: 150px;
+    color: #fff;
+    margin: 0 0 5px auto;
+    padding: 5px;
+    background-color: #0e1827;
     text-decoration: none;
-    color: #000;
 }
 .archive-box label {
     display: block;
-    margin: 0 0 4px 0;
-    padding : 15px;
-    line-height: 1;
+    font-size: 22px;
     color :#fff;
-    background : green;
+    padding : 4px;
+    line-height: 1;
+    background : linear-gradient(to right, #8cc63f 0%, #ffff00 100%);
     cursor :pointer;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #8cc63f 0%, #ffff00 100%);
 }
 .archive-box input {
     display: none;
@@ -1213,7 +1218,6 @@ input[type=radio] {
 .archive-box ul {
     margin: 0;
     padding: 0;
-    background :#f4f4f4;
     list-style: none;
 }
 .archive-box li {
@@ -1225,8 +1229,8 @@ input[type=radio] {
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-.archive-check:checked ~ .archive-list li {
-    height: 54px;
+#menu_bar1:checked ~ .archive-list1 li,#menu_bar2:checked ~ .archive-list2 li  {
+    height: 50px;
     opacity: 1;
 }
 /*--タグ--*/
