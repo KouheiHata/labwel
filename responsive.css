@@ -202,29 +202,18 @@
 		right: 50px;
 	}
 /* メニューアイコン */
-	#ham {
-	    height: 80px;
-	    width: calc(100vw / 18.75 * 3);
-	}
-
-	#ham::before {
-	    top: 30px;
-	}
-	#ham::after {
-	    top: 50px;
-	}
-
-	#ham:hover::before {
-	    top: 32px;
-	}
-	#ham:hover::after {
-	    top: 48px;
-	}
-	/* クリック後 */
-	#ham.clicked::after,
-	#ham.clicked::before {
-	    top: 40px;
-	}
+#ham {
+    height: 60px;
+    width: calc(100vw / 18.75 * 3); }
+    #ham:before, #ham:after {
+      height: 1px;
+      width: 11px; }
+    #ham:before, #ham:hover:before {
+      top: 27.5px; }
+    #ham:after, #ham:hover:after {
+      top: 31.5px; }
+    #ham.active:before, #ham.active:after {
+      top: 29.5px; }
 
 /* メニュー本体 */
 	#global-nav {
