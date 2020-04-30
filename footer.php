@@ -31,7 +31,7 @@
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="text-center">
-                    <p class="d-inline-block text-left text-white">©︎&nbsp;&nbsp;2020,&nbsp;&nbsp;LABwel&nbsp;&nbsp;INC.,<br>ALL&nbsp;&nbsp;TRADEMARKS&nbsp;&nbsp;REGISTERED.&nbsp;&nbsp;ALL&nbsp;&nbsp;RIGHTS&nbsp;&nbsp;RESERVED</p>
+                    <p class="d-inline-block text-left text-white">©︎&nbsp;&nbsp;2020,&nbsp;&nbsp;LABwel&nbsp;&nbsp;INC.,<br>ALL&nbsp;&nbsp;TRADEMARKS&nbsp;&nbsp;REGISTERED.&nbsp;&nbsp;<br class="d-xl-none d-lg-none d-md-none d-sm-inline d-inline">ALL&nbsp;&nbsp;RIGHTS&nbsp;&nbsp;RESERVED</p>
                 </div>
             </div>
         </div>
