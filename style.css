@@ -362,6 +362,11 @@ body {
     top: 88px;
 }
 
+#ham.active:before, #ham.active:after {
+  top: 80px;
+}
+
+
 /* クリック後 */
 #ham.clicked::after,
 #ham.clicked::before {
