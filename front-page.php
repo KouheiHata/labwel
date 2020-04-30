@@ -118,7 +118,7 @@
                 </div>
             </div>
             </div>
-            <a href="<?php echo esc_url(home_url('/office-a')); ?>" class="m-button d-ml-none">MORE</a>
+            <a href="<?php echo esc_url(home_url('/office-a')); ?>" class="m-button d-lg-none">MORE</a>
         </section>
 
         <section id="section05">
