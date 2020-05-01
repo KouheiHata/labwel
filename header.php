@@ -58,12 +58,12 @@ wp_deregister_script('jquery');
 	                </ul>
 			        <ul class="main">
 			            <li class="_1">
-			                <a href="/" class="hoverArea">
+			                <a href="<?php echo esc_url(home_url('/')) ?>" class="hoverArea">
 			                    <p class="gillSansNovaMedium">TOP</p>
 			                </a>
 			            </li>
 			            <li class="_2">
-			                <a href="/company" class="hoverArea">
+			                <a href="<?php echo esc_url(home_url('/company')) ?>" class="hoverArea">
 			                    <p class="gillSansNovaMedium">会社概要</p>
 			                </a>
 			            </li>
