@@ -41,30 +41,32 @@ Template Name: labwel投稿ページ
                 <p class="archive-title">Archive</p>
                 <?php
                 $year_prev = null;
-                $postType = get_post_type( );
                 $months = $wpdb->get_results("SELECT DISTINCT MONTH( post_date ) AS month ,
-                                    YEAR( post_date ) AS year,
-                                    COUNT( id ) as post_count FROM $wpdb->posts
-                                    WHERE post_status = 'publish' and post_date <= now( )
-                                    and post_type = '$postType'
-                                    GROUP BY month , year
-                                    ORDER BY post_date DESC");
-                foreach($months as $month):
+                YEAR( post_date ) AS year,
+                COUNT( id ) as post_count FROM $wpdb->posts
+                WHERE post_status = 'publish' and post_date <= now( )
+                and post_type = 'post'
+                GROUP BY month , year
+                ORDER BY post_date DESC");
+                foreach($months as $month) :
                 $year_current = $month->year;
-                if ($year_current != $year_prev) { ?>
-                <?php if($year_prev != null): ?>
-                <?php endif; ?>
-                <label class="archive-year"><?php echo $month->year; ?></label>
-                <input type="checkbox" class="accordion archive-check" />
+                if ($year_current != $year_prev){
+                    if ($year_prev != null){?>
+                </ul>
+                <?php } ?>
+            <input type="checkbox" class="accordion archive-check" />
+            <label class="archive-year"><?php echo $month->year; ?></label>
                 <ul>
                     <?php } ?>
                     <li>
-                        <a href="<?php echo esc_url(home_url()); ?>/date/<?php echo $month->year; ?>/<?php echo date("m", mktime(0, 0, 0, $month->month, 1, $month->year)) ?>">
-                            <?php echo date("n", mktime(0, 0, 0, $month->month, 1, $month->year)) ?>月(<?php echo $month->post_count; ?>)</a>
+                        <a href="<?php bloginfo('url') ?>/date/<?php echo $month->year; ?>/<?php echo date("m", mktime(0, 0, 0, $month->month, 1, $month->year)) ?>">
+                            <?php echo date("n", mktime(0, 0, 0, $month->month, 1, $month->year)) ?>月
+                            (<?php echo $month->post_count; ?>)
+                        </a>
                     </li>
+                    <?php $year_prev = $year_current;
+                    endforeach; ?>
                 </ul>
-                    <?php $year_prev = $year_current; ?>
-                    <?php endforeach; ?>
             </div>
             <div class="tegs-box">
                 <p><i class="fas fa-tag fa-fw"></i>タグ</p>
@@ -73,5 +75,6 @@ Template Name: labwel投稿ページ
         </div>
     </div>
 </div>
+
 
 <?php get_footer(); ?>
