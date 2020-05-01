@@ -1216,22 +1216,14 @@ input[type=radio] {
 }
 .archive-box label {
     display: block;
-    max-height: 32px;
     font-size: 22px;
     color :#fff;
     padding : 4px;
     line-height: 1;
     background : linear-gradient(to right, #8cc63f 0%, #ffff00 100%);
+    cursor :pointer;
     border: 2px solid;
     border-image: linear-gradient(to right, #8cc63f 0%, #ffff00 100%);
-    border-image-slice: 1;
-    cursor :pointer;
-    vertical-align: middle;
-    transition: .3s;
-}
-input[type="checkbox"]:checked + .archive-year {
-    color: transparent;    
-    -webkit-background-clip: text;
 }
 .archive-box input {
     display: none;
@@ -1250,17 +1242,13 @@ input[type="checkbox"]:checked + .archive-year {
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-#menu_bar1:checked ~ .archive-list1 li,#menu_bar2:checked ~ .archive-list2 li,#menu_bar3:checked ~ .archive-list3 li,#menu_bar4:checked ~ .archive-list4 li,#menu_bar5:checked ~ .archive-list5 li  {
-    height: 39px;
+#menu_bar1:checked ~ .archive-list1 li,#menu_bar2:checked ~ .archive-list2 li  {
+    height: 50px;
     opacity: 1;
-}
-#menu_bar1:checked ~ .archive-list1,#menu_bar2:checked ~ .archive-list2,#menu_bar3:checked ~ .archive-list3,#menu_bar4:checked ~ .archive-list4,#menu_bar5:checked ~ .archive-list5 {
-    margin-bottom: 15px;
 }
 /*--タグ--*/
 .tegs-box {
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 .tegs-box p {
     font-size: 20px;
