@@ -678,7 +678,9 @@ body {
     margin-top: calc(100vw / 50 * 10);
     position: relative;
     left: 20%;
-
+}
+#section03 video {
+    width: 80%;
 }
 
 /*--- セクション４のスタイル ---*/
@@ -772,8 +774,19 @@ body {
 
 .itemimage img:nth-child(2) {
     position: relative;
-    left: 10%;
+    left: 12.5%;
 
+}
+
+#section05 .itemimage div {
+    width: 32vw;
+    height: 600px;
+    background: #d6d3d3;
+    position: relative;
+    bottom:650px;
+    left: 8%;
+    margin-bottom: -600px;
+    z-index: -1;
 }
 
 #section05 .content {
@@ -1251,16 +1264,12 @@ input[type=radio] {
 /*---------------------------------------------
  6.footerのスタイル
 -----------------------------------------------*/
-<<<<<<< Updated upstream
-/*--- footerのスタイル ---*/
-=======
 
 /*--- footerのスタイル ---*/
 #footer {
     position: relative; /* 追加：山口　4/30 */
 }
 
->>>>>>> Stashed changes
 .pl90 {
     padding-left: 90px;
 }

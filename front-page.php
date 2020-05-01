@@ -68,9 +68,7 @@
         </section>
 
         <section id="section03">
-            <div class="movie">
-                <img src="<?php echo esc_url( get_theme_file_uri('images/movie_03.jpg') ); ?>" alt="">
-            </div>
+            <video src="<?php echo get_template_directory_uri(); ?>/images/LW2020_1.mp4" controls></video>
         </section>
 
         <section id="section04">
@@ -123,8 +121,9 @@
 
         <section id="section05">
             <div class="itemimage">
-                <img src="<?php echo esc_url( get_theme_file_uri('images/b-staff_02.jpg') ); ?>" alt="">
-                <img src="<?php echo esc_url( get_theme_file_uri('images/b_staff_img.jpg') ); ?>" alt="">
+                <img src="<?php echo esc_url( get_theme_file_uri('images/b-staff_02.jpg') ); ?>" class="d-lg-none">
+                <img src="<?php echo esc_url( get_theme_file_uri('images/b_staff_img.jpg') ); ?>">
+                <div></div>
             </div>
 
             <div class="content">

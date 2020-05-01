@@ -356,6 +356,11 @@
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
 
+@media screen and (max-width: 1024px) {
+    #section05 .itemimage div {
+        display: none;
+    }
+}
 @media screen and (max-width: 990px) {
     /*--- セクション２のスタイル ---*/
     #section02 .bg {
@@ -397,8 +402,8 @@
         top: calc(100vw / 50 * 75);
         left: 0;
     }
-    #section03 img {
-        width: 100vw;
+    #section03 video {
+        width: 100%;
     }
     /*セクション４のスタイル*/
     #section04 {
@@ -418,6 +423,9 @@
     #section04 .content h2 {
         text-align: center;
     }
+    #section04 .m-button {
+        padding: 2vw 15vw 2vw 2vw;
+    }
 
     /*セクション5*/
     #section05 {
@@ -433,7 +441,7 @@
     #section05 .itemimage img:first-child {
         position: relative;
         top: 200px;
-        left: calc(100vw / 50 * 30);
+        left: calc(100vw / 50 * 25);
     }
     #section05 .itemimage img:nth-child(2) {
         position: absolute;
@@ -572,13 +580,14 @@
         top: 250vw;
     }
     #section05 .itemimage img:first-child {
-        top: 95vw;
-        left: calc(100vw / 50 * 9);
+        top: 120vw;
+        left: calc(100vw / 50 * 15);
     }
     #section05 .itemimage img:nth-child(2) {
         position: relative;
-        left: 0;
+        left: calc(100vw / 50 * 15);
         right: 0;
+        bottom: 200px;
     }
     #section05 .content {
         top: 100vw;
