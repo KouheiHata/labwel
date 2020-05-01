@@ -469,6 +469,10 @@
         margin-left: calc(100vw / 50 * 6);
         margin-right: calc(100vw / 50 * 6);
     }
+    /* セクション3 */
+    #section03 {
+        top: calc(100vw / 50 * 80);
+    }
     /*セクション４*/
     #section04 .bg {
         height: 1550px;
@@ -506,6 +510,10 @@
     }
     #section02 .content .button {
         left:calc(100vw / 50 * 19);
+    }
+    /*セクション3*/
+    #section03 {
+        top: calc(100vw / 50 * 80);
     }
     /*セクション4*/
     #section04 .bg {
