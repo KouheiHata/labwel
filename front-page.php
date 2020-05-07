@@ -50,7 +50,7 @@
                 <div class="i-wrapper">
                     <ul>
                         <li>
-                            <img src="<?php echo esc_url( get_theme_file_uri('images/top_image03.jpg') ); ?>" alt="">
+                            <img src="<?php echo esc_url( get_theme_file_uri('images/top_image03.jpg') ); ?>">
                         </li>
                     </ul>
                 </div>

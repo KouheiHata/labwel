@@ -356,6 +356,12 @@
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
 
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+    .carousel3 .carouselborder div {
+        left: calc(100vw / 50 * 4);
+    }
+}
+
 @media screen and (max-width: 1024px) {
     #section05 .itemimage div {
         display: none;
