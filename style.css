@@ -1122,7 +1122,7 @@ input[type=radio] {
     padding-top: 50px;
     padding-bottom: 150px;
 }
-.single-box {
+.single-box,.search-box {
     max-width: 650px;
 }
 .single-title {
