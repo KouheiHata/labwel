@@ -365,6 +365,13 @@ body {
   top: 80px;
 }
 
+#ham p {
+	position:absolute;
+    top: 105px;
+    right: calc(100vw / 36 * 1.1);
+    font-size: 8px;
+    color: #fff;
+}
 
 /* クリック後 */
 #ham.clicked::after,

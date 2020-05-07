@@ -139,26 +139,6 @@
             </div>
         </section>
 
-        <section id="section06">
-            <!-- ブログ記事制作はまだのため見た目だけ整える -->
-            <div class="content pb-3">
-                <p class="text-center font-weight-bold my-5">利用者さんの日々の活動はこちら</p>
-                <p>LABwelの新入社★</p>
-                <time class="mb-5"><?php echo get_the_date(); ?></time>
-                <p>敦賀の就労継続支援Ａ型Ｂ型事業所のLABwelです。
-                    4月に入りLABwelにもあたらしい
-                    仲間が入社しました。
-
-                    職員と利用者さんが
-                    数名入社されました。..
-                </p>
-                <img src="<?php echo esc_url( get_theme_file_uri('images/sample1.png') ); ?>" alt="" class="d-block pt20">
-                <a href="#" class="button">MORE</a>
-            </div>
-
-
-        </section>
-
 
     </main>
 </div>

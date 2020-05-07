@@ -215,6 +215,13 @@
     #ham.active:before, #ham.active:after {
       top: 29.5px; }
 
+#ham p {
+    top: 40px;
+    right: calc(100vw / 18.75 * 1);
+    font-size: 6px;
+}
+
+
 /* メニュー本体 */
 	#global-nav {
 		overflow: scroll;
