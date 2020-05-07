@@ -72,6 +72,11 @@ Template Name: labwel投稿ページ
                 <p><i class="fas fa-tag fa-fw"></i>タグ</p>
                 <?php wp_tag_cloud(); ?>
             </div>
+        <div class="facebook-box">
+            <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v6.0"></script>
+            <div class="fb-page" data-href="https://ja-jp.facebook.com/LABWel0721" data-tabs="timeline" data-width="300" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://ja-jp.facebook.com/LABWel0721" class="fb-xfbml-parse-ignore"><a href="https://ja-jp.facebook.com/LABWel0721">株式会社LABwel（ラボウェル）</a></blockquote></div>
+        </div>
         </div>
     </div>
 </div>
