@@ -10,7 +10,7 @@ Template Name: labwel投稿ページ
 
 <div class="container single-container">
     <div class="row">
-        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12">
             <div class="single-box">
                 <?php if(have_posts()): the_post(); ?>
                 <div>
@@ -35,7 +35,7 @@ Template Name: labwel投稿ページ
                 <?php endif; ?>
             </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-xs-12 single-side">
             <?php get_search_form(); ?>
             <div class="archive-box">
                 <p class="archive-title">Archive</p>
@@ -68,14 +68,12 @@ Template Name: labwel投稿ページ
                     endforeach; ?>
                 </ul>
             </div>
-            <div class="tegs-box">
+        <div class="tegs-box">
                 <p><i class="fas fa-tag fa-fw"></i>タグ</p>
                 <?php wp_tag_cloud(); ?>
             </div>
         <div class="facebook-box">
-            <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v6.0"></script>
-            <div class="fb-page" data-href="https://ja-jp.facebook.com/LABWel0721" data-tabs="timeline" data-width="300" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://ja-jp.facebook.com/LABWel0721" class="fb-xfbml-parse-ignore"><a href="https://ja-jp.facebook.com/LABWel0721">株式会社LABwel（ラボウェル）</a></blockquote></div>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fja-jp.facebook.com%2FLABWel0721&tabs=timeline&width=230&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="230" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
         </div>
         </div>
     </div>

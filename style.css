@@ -845,7 +845,7 @@ body {
     opacity: .7;
 }
 /*---------------------------------
-    singleのスタイル 
+5.activeのスタイル 
 ----------------------------------*/
 .pt65 {
     padding-top: 65px;
@@ -1108,7 +1108,7 @@ input[type=radio] {
     text-indent: -999px;
 }
 /*---------------------------------
-5.singleのスタイル 
+6.singleのスタイル 
 ----------------------------------*/
 .single-container {
     padding-left: 0 !important;
@@ -1272,7 +1272,25 @@ input[type="checkbox"]:checked + .archive-year {
     opacity: .4;
 }
 /*---------------------------------------------
- 6.footerのスタイル
+ 7.archiveのスタイル
+-----------------------------------------------*/
+.archive-btn {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.archive-btn a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 120px;
+    background-color: #0e1827;
+    transition: .3s;
+}
+.archive-btn a:hover {
+    opacity: .6;
+}
+/*---------------------------------------------
+ 8.footerのスタイル
 -----------------------------------------------*/
 
 /*--- footerのスタイル ---*/
