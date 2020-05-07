@@ -61,7 +61,7 @@
             <div class="content">
                 <p class="content-title">CONCEPT</p>
                 <p class="content-text mt60">株式会社LABwelは、
-                    お仕事を通して自分の存在価値・やる気新たな能力の発見など、利用者さんの成長に繋がる自立支援をサポートする会社です。</p>
+                    お仕事を通して自分の存在価値・やる気・新たな能力の発見など、利用者さんの成長に繋がる自立支援をサポートする会社です。</p>
                 <a href="<?php echo esc_url(home_url( '/company' )); ?>" class="button">MORE</a>
 
             </div>
