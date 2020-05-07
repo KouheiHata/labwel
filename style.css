@@ -559,8 +559,6 @@ body {
     bottom: calc(100vh * 0.121);
 }
 
-.carouselborder div {}
-
 /*--- セクション2のスタイル ---*/
 #section02 {
     position: relative;
@@ -781,7 +779,7 @@ body {
 #section05 .itemimage div {
     width: 32vw;
     height: 600px;
-    background: #d6d3d3;
+    background: #f5f6f8;
     position: relative;
     bottom:650px;
     left: 8%;
