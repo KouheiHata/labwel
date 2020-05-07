@@ -560,11 +560,11 @@
     }
     /* セクション3 */
     #section03 {
-        top: 190vw;
+        top: 210vw;
     }
     /* セクション4 */
     #section04 {
-        top: calc(100vw / 50 * 90);
+        top: calc(100vw / 50 * 100);
     }
     #section04 .bg {
         height: 270vw;
@@ -594,14 +594,14 @@
         top: 250vw;
     }
     #section05 .itemimage img:first-child {
-        top: 120vw;
+        top: 150vw;
         left: calc(100vw / 50 * 15);
     }
     #section05 .itemimage img:nth-child(2) {
         position: relative;
         left: calc(100vw / 50 * 15);
         right: 0;
-        bottom: 200px;
+        bottom: 170px;
     }
     #section05 .content {
         top: 100vw;
