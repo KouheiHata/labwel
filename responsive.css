@@ -965,7 +965,7 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 575.98px) {
-    #footer {
+    .f-footer {
         top: 380vw;
     }
     .footer-logo1 {
@@ -995,7 +995,7 @@
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px){
-    #footer {
+    .f-footer {
         top: 2500px;
     }
     .footer-logo1 {
@@ -1023,7 +1023,7 @@
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px){
-    #footer {
+    .f-footer {
         top: 2500px;
     }
     .footer-logo {

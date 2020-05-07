@@ -58,32 +58,32 @@ wp_deregister_script('jquery');
 	                </ul>
 			        <ul class="main">
 			            <li class="_1">
-			                <a href="<?php echo esc_url(home_url('/')) ?>" class="hoverArea">
+			                <a href="<?php echo esc_url(home_url('/')); ?>" class="hoverArea">
 			                    <p class="gillSansNovaMedium">TOP</p>
 			                </a>
 			            </li>
 			            <li class="_2">
-			                <a href="<?php echo esc_url(home_url('/company')) ?>" class="hoverArea">
+			                <a href="<?php echo esc_url(home_url('/company')); ?>" class="hoverArea">
 			                    <p class="gillSansNovaMedium">会社概要</p>
 			                </a>
 			            </li>
 			            <li class="_3">
-			                <a href="/office-a" class="hoverArea">
+			                <a href="<?php echo esc_url(home_url('/office-a')); ?>" class="hoverArea">
 			                    <p class="gillSansNovaMedium">就労継続支援<br class="menu_br" />Ａ型事業所</p>
 			                </a>
 			            </li>
 			            <li class="_4">
-			                <a href="/office-b" class="hoverArea">
+			                <a href="<?php echo esc_url(home_url('/office-b')); ?>" class="hoverArea">
 			                    <p class="gillSansNovaMedium">就労継続支援<br class="menu_br" />Ｂ型事業所</p>
 			                </a>
 			            </li>
 			            <li class="_5">
-			                <a href="/blog/" class="hoverArea">
+			                <a href="<?php echo esc_url(home_url('/blog')); ?>" class="hoverArea">
 			                    <p class="gillSansNovaMedium">ブログ</p>
 			                </a>
 			            </li>
 			            <li class="_6">
-			                <a href="/contact/" class="hoverArea">
+			                <a href="<?php echo esc_url(home_url('/contact')); ?>" class="hoverArea">
 			                    <p class="gillSansNovaMedium">お問い合わせ</p>
 			                </a>
 			            </li>
