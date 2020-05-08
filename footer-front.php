@@ -55,7 +55,7 @@ var swiper = new Swiper ('.swiper-container', {
     effect: "fade", //フェードさせる
     loop: true,
     autoplay: {
-        delay: 2500,
+        delay: 4500,
         disableOnInteraction :false,
     },
 });

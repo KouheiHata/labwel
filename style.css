@@ -675,10 +675,19 @@ body {
 #section03 {
     margin-top: calc(100vw / 50 * 10);
     position: relative;
-    left: 20%;
 }
 #section03 video {
     width: 80%;
+    position: relative;
+    left: 10%;
+    outline: 0;
+    box-shadow: 5px -5px 10px #0e1827;
+}
+#section03 h2 {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    position: relative;
+    left: 10%;
 }
 
 /*--- セクション４のスタイル ---*/

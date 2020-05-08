@@ -15,7 +15,7 @@ Template Name: labwelA型事業所ページ
                 <img src="<?php echo esc_url( get_theme_file_uri('images/office_a-topimg.png') ); ?>" width="70%">
             </div>
             <div class="pt-5">
-                <p class="text-center font-weight-bolder font25 a-toptext">バリエーション豊富なお仕事内容だから利用者のやりがいに繋がるお仕事が見つかります。<br>やりがいのあるお仕事でとことん得意分野を伸ばしていただきます。</p>
+                <p class="text-center font-weight-bolder font25 a-toptext">お仕事がバリエーション豊富にあるので利用者のやりがいに繋がるお仕事が見つかります。<br>やりがいのあるお仕事でとことん得意分野を伸ばしていただきます。</p>
             </div>
         </div>
     </div>
