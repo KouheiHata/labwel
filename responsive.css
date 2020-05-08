@@ -215,6 +215,13 @@
     #ham.active:before, #ham.active:after {
       top: 29.5px; }
 
+#ham p {
+    top: 40px;
+    right: calc(100vw / 18.75 * 1);
+    font-size: 6px;
+}
+
+
 /* メニュー本体 */
 	#global-nav {
 		overflow: scroll;
@@ -355,12 +362,6 @@
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
-
-@media screen and (max-width: 1366px) and (min-width: 1024px) {
-    .carousel3 .carouselborder div {
-        left: calc(100vw / 50 * 4);
-    }
-}
 
 @media screen and (max-width: 1024px) {
     #section05 .itemimage div {
@@ -618,14 +619,8 @@
 
 
 /* -------------------------------------------------------------------------------- */
-/*	8. Archive Page
+/*	8. Active Page
 /* -------------------------------------------------------------------------------- */
-
-
-/* -------------------------------------------------------------------------------- */
-/*	9. Single Page
-/* -------------------------------------------------------------------------------- */
-
 @media screen and (max-width: 575.98px) {
     .contact-container {
         padding-bottom: 100px !important;
@@ -955,6 +950,23 @@
 @media screen and (min-width:1200px){}
 
 /* -------------------------------------------------------------------------------- */
+/*	9. Single Page
+/* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 575.98px) {
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    .single-img img {
+        max-width: 620px;
+    }
+}
+@media screen and (min-width:1200px){}
+
+
+/* -------------------------------------------------------------------------------- */
 /*	10. Font
 /* -------------------------------------------------------------------------------- */
 
@@ -963,8 +975,25 @@
 /* -------------------------------------------------------------------------------- */
 /*	11. Sidebar
 /* -------------------------------------------------------------------------------- */
-
-
+@media screen and (max-width: 575.98px) {
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    .single-side {
+        padding-top: 45px;
+        padding-left: 41px;
+    }
+}
+@media screen and (min-width:1200px){
+    .single-side {
+        padding-top: 30px;
+        padding-left: 55px;
+        padding-right: 0px;
+    }
+}
 /* -------------------------------------------------------------------------------- */
 /*	12. Footer
 /* -------------------------------------------------------------------------------- */

@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0,initial-scale=1.0">
     <title>labwel</title>
 
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
     <!-- Bootstrap4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- swiper css -->
@@ -42,6 +44,7 @@ wp_deregister_script('jquery');
                 </ul>
                 
                 <div id="ham" class="ham">
+				<p style="color:#fff">MENU</p>
                 </div>
                 
                 <nav id="global-nav">
@@ -78,7 +81,7 @@ wp_deregister_script('jquery');
 			                </a>
 			            </li>
 			            <li class="_5">
-			                <a href="<?php echo esc_url(home_url('/blog')); ?>" class="hoverArea">
+			                <a href="#" class="hoverArea">
 			                    <p class="gillSansNovaMedium">ブログ</p>
 			                </a>
 			            </li>

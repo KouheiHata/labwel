@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: labwel投稿ページ
+Template Name: labwel検索結果ページ
 */
 
 ?>
@@ -11,27 +11,37 @@ Template Name: labwel投稿ページ
 <div class="container single-container">
     <div class="row">
         <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12">
-            <div class="single-box">
-                <?php if(have_posts()): the_post(); ?>
-                <div>
-                    <h2 class="single-title"><?php echo get_the_title(); ?></h2>
-                </div>
-                <div class="single-sub">
-                    <p class="d-inline font-weight-bolder single-time"><i class="far fa-calendar-alt fa-fw"></i><?php the_time('Y年n月j日'); ?></p>
-                    <p class="d-inline font-weight-bolder"><i class="fas fa-tag fa-fw"></i><?php the_tags(); ?></p>
-                </div>
-                <div>
-                    <div class="single-img"><?php the_post_thumbnail(array(650, 366)); ?></div>
-                    <div class="single-content"><?php the_content(); ?></div>
-                </div>
-                <div>
-                    <?php 
-                    the_post_navigation( array(
-                        'prev_text'           => '< %title',
-                        'next_text'           => '%title >',
-                    ) ); 
-                    ?>
-                </div>
+            <div class="search-box">
+                <?php if (have_posts()): ?>
+                <?php
+                if (isset($_GET['s']) && empty($_GET['s'])) {
+                    echo '検索キーワード未入力'; // 検索キーワードが未入力の場合のテキストを指定
+                } else {
+                    echo '“'.$_GET['s'] .'”の検索結果：'.$wp_query->found_posts .'件'; // 検索キーワードと該当件数を表示
+                }
+                ?>
+                <ul>
+                    <?php while(have_posts()): the_post(); ?>
+                    <li>
+                        <div>
+                        <h2 class="single-title"><?php echo get_the_title(); ?></h2>
+                    </div>
+                    <div class="single-sub">
+                        <p class="d-inline font-weight-bolder single-time"><i class="far fa-calendar-alt fa-fw"></i><?php the_time('Y年n月j日'); ?></p>
+                        <p class="d-inline font-weight-bolder"><i class="fas fa-tag fa-fw"></i><?php the_tags(); ?></p>
+                    </div>
+                    <div>
+                        <div class="single-img"><?php the_post_thumbnail(array(650, 366)); ?></div>
+                        <div class="single-content"><?php echo mb_substr( get_the_excerpt(), 0, 50 ); ?></div>
+                    </div>
+                    <div class="text-right archive-btn">
+                        <a class="text-white" href="<?php the_permalink(); ?>">MORE</a>
+                    </div>
+                    </li>
+                    <?php endwhile; ?>
+                </ul>
+                <?php else: ?>
+                <p>検索されたキーワードにマッチする記事はありませんでした</p>
                 <?php endif; ?>
             </div>
         </div>
@@ -78,6 +88,5 @@ Template Name: labwel投稿ページ
         </div>
     </div>
 </div>
-
 
 <?php get_footer(); ?>
