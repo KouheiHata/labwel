@@ -31,6 +31,9 @@ Template Name: labwelアーカイブページ
                 </article>
                 <?php endwhile; ?>
             </div>
+            <div class="text-center pagination-box">
+                <?php the_posts_pagination(); ?>
+            </div>
         </div>
         <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-xs-12 single-side">
             <?php get_search_form(); ?>
@@ -70,7 +73,7 @@ Template Name: labwelアーカイブページ
                 <?php wp_tag_cloud(); ?>
             </div>
         <div class="facebook-box">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fja-jp.facebook.com%2FLABWel0721&tabs=timeline&width=230&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="230" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flabwel.co.jp&tabs=timeline&width=230&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="230" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
         </div>
         </div>
     </div>

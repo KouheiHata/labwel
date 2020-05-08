@@ -85,6 +85,11 @@ $('#searchsubmit').val('\uf002')
     });
 </script>
 
+<!--ページ送り-->
+<script>
+$('.page-numbers.next').wrap('<div class="pagination-next"></div>');
+</script>
+
 <?php wp_footer(); ?>
 </body>
 

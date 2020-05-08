@@ -58,6 +58,7 @@ function loopNumber(){
     global $wp_query;
     return $wp_query->current_post+1;
 }
+
 //西暦和暦変換
 function wareki($ymd)
 {
