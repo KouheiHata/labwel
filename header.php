@@ -44,7 +44,7 @@ wp_deregister_script('jquery');
                 </ul>
                 
                 <div id="ham" class="ham">
-				<p style="color:#fff">MENU</p>
+				<p class="color:#fff;">MENU</p>
                 </div>
                 
                 <nav id="global-nav">

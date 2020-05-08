@@ -6,11 +6,11 @@
             <div class="row">
             
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <section id="back2top">
+                <section id="back2top" class="mt100 mb100">
                     
                     <h2>お探しのページは見つかりませんでした</h2>
                     
-                    <p>こちらから<a href="">トップ</a>へお戻りください。</p>
+                    <p class="mt50">こちらから<a href="<?php esc_url(home_url('/')); ?>">トップ</a>へお戻りください。</p>
                     
                 </section>
             </div>
