@@ -13,6 +13,7 @@ Template Name: labwel検索結果ページ
         <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12">
             <div class="search-box">
                 <?php if (have_posts()): ?>
+                <p class="search-title">
                 <?php
                 if (isset($_GET['s']) && empty($_GET['s'])) {
                     echo '検索キーワード未入力'; // 検索キーワードが未入力の場合のテキストを指定
@@ -20,6 +21,7 @@ Template Name: labwel検索結果ページ
                     echo '“'.$_GET['s'] .'”の検索結果：'.$wp_query->found_posts .'件'; // 検索キーワードと該当件数を表示
                 }
                 ?>
+                </p>
                 <ul>
                     <?php while(have_posts()): the_post(); ?>
                     <li>
@@ -31,7 +33,6 @@ Template Name: labwel検索結果ページ
                         <p class="d-inline font-weight-bolder"><i class="fas fa-tag fa-fw"></i><?php the_tags(); ?></p>
                     </div>
                     <div>
-                        <div class="single-img"><?php the_post_thumbnail(array(650, 366)); ?></div>
                         <div class="single-content"><?php echo mb_substr( get_the_excerpt(), 0, 50 ); ?></div>
                     </div>
                     <div class="text-right archive-btn">
@@ -43,6 +44,9 @@ Template Name: labwel検索結果ページ
                 <?php else: ?>
                 <p>検索されたキーワードにマッチする記事はありませんでした</p>
                 <?php endif; ?>
+            </div>
+            <div class="text-center pagination-box">
+                <?php the_posts_pagination(); ?>
             </div>
         </div>
         <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-xs-12 single-side">
