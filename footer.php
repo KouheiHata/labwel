@@ -88,6 +88,7 @@ $('#searchsubmit').val('\uf002')
 <!--ページ送り-->
 <script>
 $('.page-numbers.next').wrap('<div class="pagination-next"></div>');
+$('.page-numbers.prev').wrap('<div class="pagination-prev"></div>');    
 </script>
 
 

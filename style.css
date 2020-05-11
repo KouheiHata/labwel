@@ -1326,11 +1326,11 @@ input[type="checkbox"]:checked + .archive-year {
     cursor :pointer;
     transition: .3s;
 }
-.page-numbers:hover {
+.page-numbers:hover,.page-numbers:active {
     color: #0e1827;
     background-color: #f2f2f2;
 }
-.pagination-next {
+.pagination-next,.pagination-prev {
     display: inline-block;
 }
 .pagination-next:after {
@@ -1343,10 +1343,27 @@ input[type="checkbox"]:checked + .archive-year {
     border-color: transparent transparent transparent #0e1827;
     transition: .3s;
 }
+.pagination-prev:before {
+    content: "";
+    position: relative;
+    top: -4px;
+    font-size: 0;
+    border-style: solid;
+    border-width: 42px 35px 42px 0;
+    border-color: transparent #0e1827 transparent transparent;
+    transition: .3s;
+}
 .pagination-next:hover:after {
     border-color: transparent transparent transparent #f2f2f2;
 }
-.pagination-next::after:hover > .page-numbers {
+.pagination-prev:hover:before {
+    border-color: transparent #f2f2f2 transparent transparent;
+}
+.pagination-next:hover > .page-numbers {
+    color: #0e1827;
+    background-color: #f2f2f2;
+}
+.pagination-prev:hover > .page-numbers {
     color: #0e1827;
     background-color: #f2f2f2;
 }
