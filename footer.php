@@ -91,6 +91,26 @@ $('.page-numbers.next').wrap('<div class="pagination-next"></div>');
 $('.page-numbers.prev').wrap('<div class="pagination-prev"></div>');    
 </script>
 
+<!--
+<script>
+$('.page-numbers').replaceWith(function() {
+  var tag_class = $(this).attr("class");
+  var tag_href = $(this).attr("href");
+    
+  if ( tag_class == null) {
+    var tag_class_plus =[];
+  } else {
+    var tag_class_plus = 'class="'+tag_class+'"';
+  }
+    if ( tag_href == null ) {
+    var tag_href_plus =[];
+  } else {
+    var tag_href_plus = 'href="'+tag_href+'"';
+  }
+  $(this).replaceWith('<button '+tag_class_plus+'>''<a '+tag_href_plus+'>'+$(this).html()+'</a>''</button>');
+});
+</script>
+-->
 
 <?php wp_footer(); ?>
 </body>

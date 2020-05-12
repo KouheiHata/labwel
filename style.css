@@ -1326,9 +1326,9 @@ input[type="checkbox"]:checked + .archive-year {
     cursor :pointer;
     transition: .3s;
 }
-.page-numbers:hover,.page-numbers:active {
-    color: #0e1827;
-    background-color: #f2f2f2;
+.page-numbers:hover,.page-numbers.current {
+    color: #0e1827 !important;
+    background-color: #f2f2f2 !important;
 }
 .pagination-next,.pagination-prev {
     display: inline-block;
