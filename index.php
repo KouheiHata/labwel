@@ -4,10 +4,9 @@
 Template Name: labwel記事一覧ページ
 */
 
-<div class="wrapper">
-    <main id="main">
-        <div class="container">
-            <div class="row">
+?>
+
+<?php get_header(); ?>
 
 <div class="container single-container">
     <div class="row">
