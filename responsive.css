@@ -467,9 +467,18 @@
     #section05 .content-text {
         padding-bottom: calc(100vw / 50 * 2);
     }
+    /* セクション6 */
     #section06 {
         position: relative;
         top: 2500px;
+    }
+    #section06::before,
+    #section06::after {
+        padding: 1px calc(100vw / 50 * 20) 0 calc(100vw / 50 * 20);
+        left: calc(100vw / 50 * 5);
+    }
+    #section06 .content:not(:first-of-type) {
+        width: 70%;
     }
 }
 @media screen and (max-width:990px) and (min-width: 771px) {
@@ -507,6 +516,10 @@
     #section04 .m-button {
         top: calc(100vw / 50 * 35);
         left: calc(100vw / 50 * 18);
+    }
+    /* セクション６ */
+    #section06 .button {
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 770px) {
@@ -551,7 +564,11 @@
         top: 105vw;
         left: calc(100vw / 50 * 18);
     }
-    /*セクション5*/
+    /*セクション６*/
+    #section06 .button {
+        font-size: 12px;
+        padding: 10px 100px 10px 10px;
+    }
 
 }
 @media screen and (max-width: 580px) {
@@ -614,6 +631,9 @@
     }
     #section06 {
         top: 380vw;
+    }
+    #section06 .button {
+        padding: 10px 80px 10px 10px;
     }
 }
 

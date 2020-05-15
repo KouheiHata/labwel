@@ -88,34 +88,34 @@
                 <a href="<?php echo esc_url(home_url( '/office-a' )); ?>" class="button">MORE</a>
             </div>
             <div class="slide-content">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img.jpg') ); ?>" alt=""></div>
-                    <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img4.jpg') ); ?>" alt=""></div>
-                </div>
-            </div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img2.jpg') ); ?>" alt="">
-                    </div>
-                    <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img5.jpg') ); ?>" alt=""></div>
-                    <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img6.jpg') ); ?>" alt=""></div>
-                </div>
-            </div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img3.jpg') ); ?>" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img7.jpg') ); ?>" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img8.jpg') ); ?>" alt="">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img.jpg') ); ?>" alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img4.jpg') ); ?>" alt=""></div>
                     </div>
                 </div>
-            </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img2.jpg') ); ?>" alt="">
+                        </div>
+                        <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img5.jpg') ); ?>" alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img6.jpg') ); ?>" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="<?php echo esc_url( get_theme_file_uri('images/a_staff_img3.jpg') ); ?>" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img7.jpg') ); ?>" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<?php echo esc_url( get_theme_file_uri('images/a-section-img8.jpg') ); ?>" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
             <a href="<?php echo esc_url(home_url('/office-a')); ?>" class="m-button d-lg-none">MORE</a>
         </section>
@@ -140,27 +140,57 @@
             </div>
         </section>
 
-<!--
         <section id="section06">
-             ブログ記事制作はまだのため見た目だけ整える 
+            <!--             ブログ記事制作はまだのため見た目だけ整える -->
             <div class="content pb-3">
                 <p class="text-center font-weight-bold my-5">利用者さんの日々の活動はこちら</p>
-                <p>LABwelの新入社★</p>
-                <time class="mb-5"><?php echo get_the_date(); ?></time>
-                <p>敦賀の就労継続支援Ａ型Ｂ型事業所のLABwelです。
-                    4月に入りLABwelにもあたらしい
-                    仲間が入社しました。
-
-                    職員と利用者さんが
-                    数名入社されました。..
-                </p>
-                <img src="<?php echo esc_url( get_theme_file_uri('images/sample1.png') ); ?>" alt="" class="d-block pt20">
-                <a href="#" class="button">MORE</a>
             </div>
-
+            <!-- サブループ -->
+            <?php
+            $args = array(
+                'post_type' => 'post',
+                'category_name' => 'news'
+            );
+                $news_query = new WP_Query($args);
+                ?>
+            <?php if ( $news_query->have_posts()) : ?>
+            <?php while ($news_query->have_posts() ) : ?>
+            <?php $news_query->the_post(); ?>
+            <div class="content mb90">
+                <div>
+                    <h2 class="single-title"><?php echo get_the_title(); ?></h2>
+                </div>
+                <div class="single-sub">
+                    <p class="d-inline font-weight-bolder single-time">
+                        <i class="far fa-calendar-alt fa-fw"></i>
+                        <?php the_time('Y年n月j日'); ?>
+                    </p>
+                    <p class="d-inline font-weight-bolder">
+                        <i class="fas fa-tag fa-fw"></i>
+                        <?php get_the_tags(); ?>
+                    </p>
+                </div>
+                <div>
+                    <div class="single-img">
+                        <?php the_post_thumbnail(array(650, 366)); ?>
+                    </div>
+                    <div class="single-content mb-5">
+                        <?php the_excerpt(); ?>
+                    </div>
+                    <a href="<?php the_permalink(); ?>" class="button">MORE</a>
+                    <div class="clear"></div>
+                    <div class="category mt-5 text-right">
+                       <p>カテゴリー</p><?php the_category(' , '); ?>
+                    </div>
+                </div>
+            </div>
+            <?php endwhile;
+                    wp_reset_postdata();
+                    else: ?>
+            <p>投稿はありません。</p>
+            <?php endif; ?>
 
         </section>
--->
 
     </main>
 </div>

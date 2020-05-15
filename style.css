@@ -835,6 +835,9 @@ body {
     margin: 3rem auto 6rem;
     width: 70%;
 }
+#section06 .content:not(:first-of-type) {
+    width: 60%;
+}
 
 #section06 .content time {
     line-height: 2rem;
@@ -845,10 +848,8 @@ body {
 }
 
 #section06 .button {
-    margin-bottom: 25px;
-    position: relative;
-    top: 10vh;
-    left: 65%;
+    float: right;
+    padding: 15px 130px 15px 15px;
 }
 
 /*-------------------------------
@@ -1288,6 +1289,16 @@ input[type="checkbox"]:checked + .archive-year {
 .tegs-box a:hover {
     opacity: .4;
 }
+/* カテゴリー */
+.category {
+    line-height: 1.5rem;
+}
+
+.category a {
+    font-weight: bold;
+    color: #0e1827;
+}
+
 /*---------------------------------------------
  7.archiveのスタイル
 -----------------------------------------------*/
