@@ -81,7 +81,7 @@ wp_deregister_script('jquery');
 			                </a>
 			            </li>
 			            <li class="_5">
-			                <a href="#" class="hoverArea">
+			                <a href="<?php echo esc_url(home_url('/blog')); ?>" class="hoverArea">
 			                    <p class="gillSansNovaMedium">ブログ</p>
 			                </a>
 			            </li>
