@@ -4,7 +4,6 @@
 Template Name: labwel記事一覧ページ
 */
 
-<<<<<<< HEAD
 <div class="wrapper">
     <main id="main">
         <div class="container">

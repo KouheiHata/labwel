@@ -149,7 +149,7 @@
             <?php
             $args = array(
                 'post_type' => 'post',
-                'category_name' => 'news'
+                'posts_per_page' => 1,
             );
                 $news_query = new WP_Query($args);
                 ?>
