@@ -53,10 +53,10 @@ wp_deregister_script('jquery');
 				    </header>
 	                <ul class="vertical">
 	                    <li>
-	                        <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo.png') ); ?>" alt="ipppo">
+	                        <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo.png') ); ?>" alt="ipppo" width="50px">
 	                    </li>
 	                    <li>
-	                        <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="+ipppo">
+	                        <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="+ipppo" width="50px">
 	                    </li>
 	                </ul>
 			        <ul class="main">
