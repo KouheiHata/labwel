@@ -31,7 +31,7 @@ wp_deregister_script('jquery');
             <div class="row">
 
                 <h1>
-                    <a href="<?php echo home_url() ?>"><img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo.png') ); ?>" alt="LABwel"></a>
+                    <a href="<?php echo home_url() ?>"><img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo.png') ); ?>" alt="LABwel" width="180px"></a>
                 </h1>
 
                 <ul class="vertical">
@@ -49,7 +49,7 @@ wp_deregister_script('jquery');
                 
                 <nav id="global-nav">
 				    <header id="globHeader">
-				        <a href="/"><img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo-menu.png') ); ?>" /></a>
+				        <a href="/"><img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo-menu.png') ); ?>" width="195px"></a>
 				    </header>
 	                <ul class="vertical">
 	                    <li>
