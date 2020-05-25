@@ -77,8 +77,8 @@
             <div class="content">
                 <p class="content-title">就労継続支援Ａ型</p>
                 <h2>
-                    <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo_06.png') ); ?>" alt="">
-                    <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="">
+                    <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo_06.png') ); ?>" alt="" width="156px">
+                    <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="" width="156px">
                     <br class="d-lg-none">
                     <img src="<?php echo esc_url( get_theme_file_uri('images/a-copy_03.png') ); ?>">
                 </h2>
@@ -130,7 +130,7 @@
             <div class="content">
                 <p class="content-title">就労継続支援Ｂ型</p>
                 <h3>
-                    <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="+ipppo" class="pb30">
+                    <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="+ipppo" class="pb30" width="156px">
                     <img src="<?php echo esc_url( get_theme_file_uri('images/b-copy_07.png') ); ?>" alt="">
                 </h3>
                 <p class="content-text">みんなと仕事をするのが楽しくなる。
