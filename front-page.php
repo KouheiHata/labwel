@@ -141,7 +141,6 @@
         </section>
 
         <section id="section06">
-            <!--             ブログ記事制作はまだのため見た目だけ整える -->
             <div class="content pb-3">
                 <p class="text-center font-weight-bold my-5">利用者さんの日々の活動はこちら</p>
             </div>
@@ -179,9 +178,6 @@
                     </div>
                     <a href="<?php the_permalink(); ?>" class="button">MORE</a>
                     <div class="clear"></div>
-                    <div class="category mt-5 text-right">
-                       <p>カテゴリー</p><?php the_category(' , '); ?>
-                    </div>
                 </div>
             </div>
             <?php endwhile;
