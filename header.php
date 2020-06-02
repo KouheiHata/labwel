@@ -31,15 +31,15 @@ wp_deregister_script('jquery');
             <div class="row">
 
                 <h1>
-                    <img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo.png') ); ?>" alt="LABwel">
+                    <a href="<?php echo home_url() ?>"><img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo.png') ); ?>" alt="LABwel" width="180px"></a>
                 </h1>
 
                 <ul class="vertical">
                     <li>
-                        <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo.png') ); ?>" alt="ipppo">
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo.png') ); ?>" alt="ipppo" width="50px">
                     </li>
                     <li>
-                        <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="+ipppo">
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="+ipppo" width="50px">
                     </li>
                 </ul>
                 
@@ -49,14 +49,14 @@ wp_deregister_script('jquery');
                 
                 <nav id="global-nav">
 				    <header id="globHeader">
-				        <a href="/"><img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo-menu.png') ); ?>" /></a>
+				        <a href="/"><img src="<?php echo esc_url( get_theme_file_uri('images/labwel-logo-menu.png') ); ?>" width="195px"></a>
 				    </header>
 	                <ul class="vertical">
 	                    <li>
-	                        <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo.png') ); ?>" alt="ipppo">
+	                        <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo.png') ); ?>" alt="ipppo" width="50px">
 	                    </li>
 	                    <li>
-	                        <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="+ipppo">
+	                        <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo.png') ); ?>" alt="+ipppo" width="50px">
 	                    </li>
 	                </ul>
 			        <ul class="main">
