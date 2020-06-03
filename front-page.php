@@ -77,8 +77,8 @@
             <div class="content">
                 <p class="content-title">就労継続支援Ａ型</p>
                 <h2>
-                    <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo_06.png') ); ?>" alt="" width="156px">
-                    <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="" width="156px">
+                    <img src="<?php echo esc_url( get_theme_file_uri('images/ipppo_06.png') ); ?>" alt="ipppo">
+                    <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="+ipppo">
                     <br class="d-lg-none">
                     <img src="<?php echo esc_url( get_theme_file_uri('images/a-copy_03.png') ); ?>">
                 </h2>
@@ -130,7 +130,7 @@
             <div class="content">
                 <p class="content-title">就労継続支援Ｂ型</p>
                 <h3>
-                    <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="+ipppo" class="pb30" width="156px">
+                    <img src="<?php echo esc_url( get_theme_file_uri('images/+ipppo_08.png') ); ?>" alt="+ipppo" class="pb30">
                     <img src="<?php echo esc_url( get_theme_file_uri('images/b-copy_07.png') ); ?>" alt="">
                 </h3>
                 <p class="content-text">みんなと仕事をするのが楽しくなる。
@@ -141,8 +141,8 @@
         </section>
 
         <section id="section06">
-            <div class="content pb-3">
-                <p class="text-center font-weight-bold my-5">利用者さんの日々の活動はこちら</p>
+            <div class="content">
+                <p class="text-center font-weight-bold">利用者さんの日々の活動はこちら</p>
             </div>
             <!-- サブループ -->
             <?php
@@ -155,7 +155,7 @@
             <?php if ( $news_query->have_posts()) : ?>
             <?php while ($news_query->have_posts() ) : ?>
             <?php $news_query->the_post(); ?>
-            <div class="content mb90">
+            <div class="content">
                 <div>
                     <h2 class="single-title"><?php echo get_the_title(); ?></h2>
                 </div>

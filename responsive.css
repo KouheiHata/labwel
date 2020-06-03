@@ -68,6 +68,7 @@
 /*	4. Header
 /* -------------------------------------------------------------------------------- */
 
+
 @media screen and (max-width: 990px) {
     #section01 .bg {
         display: none;
@@ -81,6 +82,14 @@
         top: calc(100vw / 50 * 10)
     }
 }
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+    .vertical {
+        right: 0;
+    }
+    .vertical li img {
+        width: 80%;
+    }
+}
 
 @media screen and (max-width: 990px) and (min-width: 771px) {
     .vertical {
@@ -92,7 +101,8 @@
         right: calc(100vw / 50 * 4);
     }
 }
-
+@media screen and (max-width: 770px) {
+}
 @media screen and (max-width: 833px) {
 /* Ipppoロゴ */
 	.vertical li img {
@@ -113,6 +123,9 @@
 @media screen and (max-width: 580px) {
     .vertical {
         width: calc(100vw / 50 * 2);
+    }
+    .vertical li img {
+        width: 100%;
     }
     .carousel1 {
         width: calc(100vw / 50 * 40);
@@ -369,6 +382,14 @@
     }
 }
 @media screen and (max-width: 990px) {
+    /* セクション１のスタイル */
+    .carousel1 .i-wrapper {
+        width: 90%;
+        padding-top: 2em;
+    }
+    .swiper-slide img {
+        object-fit: contain;
+    }
     /*--- セクション２のスタイル ---*/
     #section02 .bg {
         display: none;
@@ -382,7 +403,7 @@
     }
     #section02 .content {
         position: relative;
-        top: calc(100vw / 50 * 55);
+        top: calc(100vw / 50 * 46);
     }
     #section02 .content-title {
         font-size: 18px;
@@ -406,7 +427,6 @@
     }
     /*セクション３*/
     #section03 {
-        top: calc(100vw / 50 * 75);
         left: 0;
     }
     #section03 h2 {
@@ -419,7 +439,6 @@
     }
     /*セクション４のスタイル*/
     #section04 {
-        top: calc(100vw / 50 * 75);
         height: 1000px;
     }
     #section04 .bg {
@@ -441,7 +460,7 @@
 
     /*セクション5*/
     #section05 {
-        top: 2000px;
+        top: 1500px;
     }
     #section05 .content-title {
         font-size: 18px;
@@ -470,7 +489,7 @@
     /* セクション6 */
     #section06 {
         position: relative;
-        top: 2500px;
+        top: calc(5vw + 2000px);
     }
     #section06::before,
     #section06::after {
@@ -492,23 +511,26 @@
     }
     /* セクション3 */
     #section03 {
-        top: calc(100vw / 50 * 80);
+        top: calc(100vw + 100px);
     }
     /*セクション４*/
+    #section04 {
+        top: calc(100vw + 80px);
+    }
     #section04 .bg {
         height: 1550px;
     }
     #section04 .content {
         padding: 20px 40px 0 40px;
-        margin-left: calc(100vw / 50 * 12);
-        margin-right: calc(100vw / 50 * 12);
+        margin-left: 20%;
+        margin-right: 38%;
     }
     #section04 .content .button {
         display: none;
     }
     #section04 .slide-content {
-        top: calc(100vw / 50 * 30);
-        left: calc(100vw / 50 * 12);
+        top: calc(100vw / 50 * 28);
+        left: 20%;
     }
     #section04 .slide-content img {
         width: 500px;
@@ -523,24 +545,42 @@
     }
 }
 @media screen and (max-width: 770px) {
+    .carousel1 .i-wrapper {
+        width: 80%;
+        padding-top: 2em;
+        padding-left: calc(10% + 10px);
+    }
+    .carouselborder img {
+        width: 80%;
+    }
 }
-@media screen and (max-width:770px) and (min-width: 581px) {
+@media screen and (max-width: 770px) and (min-width: 581px) {
     /*セクション２*/
+    .carousel2 {
+        top: calc(100vw / 50 * 40);
+    }
+    .carousel3 .i-wrapper ul li img {
+        width: calc(90% + 100px);
+    }
     #section02 {
         top: calc(100vw / 50 * 30);
     }
     #section02 .content {
         margin-left: calc(100vw / 50 * 8);
         margin-right: calc(100vw / 50 * 8);
+        top: calc(100vw + 100px);
     }
     #section02 .content .button {
         left:calc(100vw / 50 * 19);
     }
     /*セクション3*/
     #section03 {
-        top: calc(100vw / 50 * 80);
+        top: calc(150vw + 150px);
     }
     /*セクション4*/
+    #section04 {
+        top: calc(140vw + 80px);
+    }
     #section04 .bg {
         height: 1650px;
     }
@@ -564,6 +604,10 @@
         top: 105vw;
         left: calc(100vw / 50 * 18);
     }
+    /* セクション５ */
+    #section05 {
+        top: calc(10vw + 1600px);
+    }
     /*セクション６*/
     #section06 .button {
         font-size: 12px;
@@ -572,12 +616,19 @@
 
 }
 @media screen and (max-width: 580px) {
+    /* セクション１ */
+    #section01 .swiper-slide img {
+        height: 400px;
+    }
     /* セクション2 */
     #section02 {
-        top: 480px;
+        top: 240px;
+    }
+    .carousel3 .i-wrapper ul li img {
+        width: calc(90% + 100px);
     }
     #section02 .content {
-        top: calc(100vw / 50 * 60);
+        top: calc(100vw / 50 * 65);
         margin-left: calc(100vw / 50 * 5);
         margin-right: calc(100vw / 50 * 5);
     }
@@ -585,52 +636,75 @@
     #section03 {
         top: 210vw;
     }
+    #section03 h2 {
+        font-size: 24px;
+    }
     /* セクション4 */
     #section04 {
         top: calc(100vw / 50 * 100);
     }
     #section04 .bg {
-        height: 270vw;
+        height: calc(10vw + 1000px);
+    }
+    #section04 h2 img {
+        width: 60%;
+    }
+    
+    #section04 h2 img:last-of-type {
+        width: 90%;
     }
     #section04 .content {
+        width: 85%;
         padding: 3vw;
         margin-left: calc(100vw / 50 * 3);
-        margin-right: calc(100vw / 50 * 3);
+        margin-right: calc(100vw / 50 * 6);
     }
     #section04 .content .button {
         display: none;
     }
     #section04 .slide-content {
-        top: calc(100vw / 50 * 61);
-        left: calc(100vw / 50 * 4);
+        top: calc(10vw + 450px);
+        left: calc(100vw / 50 * 3);
     }
     #section04 .slide-content img {
-        width: calc(100vw / 50 * 38.888);
+        width: 85%;
     }
     #section04 .m-button {
-        top: calc(100vw / 50 * 66);
+        top: calc(100vw + 200px);
         left: calc(100vw / 50 * 15);
         right: calc(100vw / 50 * 15);
     }
     /* セクション5 */
     #section05 {
-        top: 250vw;
+        top: calc(100vw + 100px);
     }
     #section05 .itemimage img:first-child {
-        top: 150vw;
-        left: calc(100vw / 50 * 15);
+        width: 80%;
+        top: calc(130vw + 150px);
+        left: 10%;
     }
     #section05 .itemimage img:nth-child(2) {
+        width: 80%;
         position: relative;
-        left: calc(100vw / 50 * 15);
-        right: 0;
+        left: 10%;
         bottom: 170px;
     }
     #section05 .content {
         top: 100vw;
+        width: 80%;
     }
+    #section05 .content h3 img:first-of-type {
+        width: 30%;
+    }
+    #section05 .content h3 img:nth-child(2) {
+        width: 80%;
+    }
+    /* セクション６ */
     #section06 {
-        top: 380vw;
+        top: calc(250vw + 80px);
+    }
+    #section06 .content {
+        margin: 1em auto 3em;
     }
     #section06 .button {
         padding: 10px 80px 10px 10px;
@@ -1020,7 +1094,7 @@
 
 @media screen and (max-width: 575.98px) {
     .f-footer {
-        top: 380vw;
+        top: calc(250vw + 100px);
     }
     .footer-logo1 {
         width: 130px !important;
@@ -1050,7 +1124,7 @@
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px){
     .f-footer {
-        top: 2500px;
+        top: calc(1800px + 30vw);
     }
     .footer-logo1 {
         width: 130px !important;
@@ -1078,7 +1152,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px){
     .f-footer {
-        top: 2500px;
+        top: calc(1800px + 30vw);
     }
     .footer-logo {
         padding-left: 45px;

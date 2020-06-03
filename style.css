@@ -368,7 +368,7 @@ body {
 #ham p {
 	position:absolute;
     top: 105px;
-    right: calc(100vw / 36 * 1.1);
+    left: 41%;
     font-size: 8px;
     color: #fff;
 }
@@ -549,16 +549,6 @@ body {
     bottom: 0;
 }
 
-/*
-.i-wrapper {
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-*/
 .carousel1 .carouselborder {
     width: 30px;
     left: 0;
@@ -589,15 +579,11 @@ body {
 
 .carousel2 {
     position: absolute;
-    width: calc(100vw / 36 * 13);
+    width: calc(100vw / 36 * 12);
+    height: calc(100vw / 50 * 23);
     top: calc(100vh * 0.25);
     left: calc(100vw / 36 * 2.25);
-}
-
-.carousel2 .carouselborder div {
-    width: calc(100vw / 36 * 12);
-    height: 10px;
-    background: linear-gradient(to right, #f15a24, #ffff00);
+    background: linear-gradient(to right, #f15a24, #ffff00); /*ラインを背景にすることでスムーズに変形*/
 }
 
 .carousel2 div ul li img {
@@ -612,13 +598,8 @@ body {
     width: calc(100vw / 36 * 11);
     height: calc(100vh * 0.284);
 }
-
-.carousel3 .carouselborder div {
-    position: absolute;
-    top: 0;
-    right: 301px;
-    width: 15px;
-    height: 402px;
+.carousel3 .i-wrapper ul li img {
+    padding-left: 11px;
     background: linear-gradient(#8cc63f, #ffff00);
 }
 
@@ -737,6 +718,10 @@ body {
 #section04 h2 img {
     margin-bottom: 5vw;
 }
+#section04 h2 img:first-of-type,
+#section04 h2 img:nth-child(2) {
+    width: 30%;
+}
 
 #section04 .content p {
     white-space: pre-line;
@@ -779,6 +764,9 @@ body {
     margin-right: 10px;
     position: relative;
     bottom: 0.8em;
+}
+#section05 .content h3 img:first-of-type {
+    width: 156px;
 }
 
 .itemimage img:first-child {
