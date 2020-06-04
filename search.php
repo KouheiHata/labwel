@@ -10,15 +10,15 @@ Template Name: labwel検索結果ページ
 
 <div class="container single-container">
     <div class="row">
-        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12 rpr60 rpb100">
             <div class="search-box">
                 <?php if (have_posts()): ?>
                 <p class="search-title">
                 <?php
                 if (isset($_GET['s']) && empty($_GET['s'])) {
-                    echo '検索キーワード未入力'; // 検索キーワードが未入力の場合のテキストを指定
+                    echo '検索キーワード未入力';
                 } else {
-                    echo '“'.$_GET['s'] .'”の検索結果：'.$wp_query->found_posts .'件'; // 検索キーワードと該当件数を表示
+                    echo '“'.$_GET['s'] .'”の検索結果：'.$wp_query->found_posts .'件';
                 }
                 ?>
                 </p>

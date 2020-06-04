@@ -10,7 +10,7 @@ Template Name: labwel投稿ページ
 
 <div class="container single-container">
     <div class="row">
-        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12 rpr60 rpb100">
             <div class="single-box">
                 <?php if(have_posts()): the_post(); ?>
                 <div>

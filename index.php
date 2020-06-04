@@ -10,27 +10,9 @@ Template Name: labwel記事一覧ページ
 
 <div class="container single-container">
     <div class="row">
-        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12 rpr60 rpb100">
             <div class="single-box">
-                <?php
-                $the_query = new WP_Query( array(
-                    'paged'       => get_query_var( 'paged' ) ? intval( get_query_var( 'paged' ) ) : 1,
-                    'post_type'   => 'post'
-                ) ); ?>
-                <?php
-                $paged = (int) get_query_var('paged');
-                $args = array(
-                    'paged' => $paged,
-                    'posts_per_page' => 5, // 表示件数
-                    'orderby' => 'post_date', // 並び順を日付順
-                    'order' => 'DESC', // 並び順を降順
-                    'post_type' => 'post', // 投稿の一覧を表示
-                    'post_status' => 'publish' // 公開済みのものを表示
-                );
-                $the_query = new WP_Query($args);
-                if ( $the_query->have_posts() ) :
-                while ( $the_query->have_posts() ) : $the_query->the_post();
-                ?>
+                <?php if(have_posts()): the_post(); ?>
                 <div>
                     <h2 class="single-title"><?php echo get_the_title(); ?></h2>
                 </div>
@@ -40,20 +22,17 @@ Template Name: labwel記事一覧ページ
                 </div>
                 <div>
                     <div class="single-img"><?php the_post_thumbnail(array(650, 366)); ?></div>
-                    <div class="single-content"><?php echo mb_substr( get_the_excerpt(), 0, 50 ); ?></div>
+                    <div class="single-content"><?php the_content(); ?></div>
                 </div>
-                <div class="text-right archive-btn">
-                    <a class="text-white" href="<?php the_permalink(); ?>">MORE</a>
-                </div>
-                <?php endwhile; endif; ?>
-                <?php wp_reset_postdata(); ?>
-                <div class="text-center">
-                    <?php
-                    $GLOBALS['wp_query']->max_num_pages = $the_query->max_num_pages;
-                    the_posts_pagination();
-                    wp_reset_postdata();
+                <div>
+                    <?php 
+                    the_post_navigation( array(
+                        'prev_text'           => '< %title',
+                        'next_text'           => '%title >',
+                    ) ); 
                     ?>
                 </div>
+                <?php endif; ?>
             </div>
         </div>
         <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-xs-12 single-side">
@@ -99,5 +78,6 @@ Template Name: labwel記事一覧ページ
         </div>
     </div>
 </div>
+
 
 <?php get_footer(); ?>

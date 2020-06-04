@@ -10,7 +10,7 @@ Template Name: labwelアーカイブページ
 
 <div class="container single-container">
     <div class="row">
-        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-xs-12 rpr60 rpb100">
             <div class="single-box">
                 <?php while ( have_posts() ) : the_post(); ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
