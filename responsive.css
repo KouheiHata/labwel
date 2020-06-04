@@ -1066,6 +1066,9 @@
     .single-content {
         font-size: 16px;
     }
+    .archive-box a {
+        font-size: 14px;
+    }
     .pagination-box {
         height: 120px;
     }
@@ -1092,6 +1095,9 @@
     }
     .single-content {
         font-size: 16px;
+    }
+    .archive-box a {
+        font-size: 14px;
     }
     .pagination-box {
         height: 120px;
