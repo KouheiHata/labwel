@@ -510,6 +510,9 @@
     #section06 .content:not(:first-of-type) {
         width: 70%;
     }
+    #back2top h2 {
+        font-size: 2em;
+    }
 }
 @media screen and (max-width:990px) and (min-width: 771px) {
     /*セクション２*/
@@ -737,6 +740,10 @@
     /* セクション6 */
     #section06 {
         top: calc(800px + 100vw);
+    }
+    /* 404 */
+    #back2top h2 {
+        font-size: 2em;
     }
 }
 
