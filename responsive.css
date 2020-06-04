@@ -1076,10 +1076,69 @@
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
 @media screen and (max-width: 575.98px) {
+    .single-title {
+        line-height: 1.3;
+    }
+    .single-sub p {
+        font-size: 16px;
+    }
+    .single-time {
+        display: block !important;
+    }
+    .single-img img {
+        width: 100%;
+        height: auto;
+    }
+    .single-container {
+        padding-left: 15px !important;
+    }
+    .single-content {
+        font-size: 16px;
+    }
+    .archive-box a {
+        font-size: 14px;
+    }
+    .pagination-box {
+        height: 120px;
+    }
+    .pagination-next:after {
+        border-width: 38px 0 38px 30px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px){
+    .single-title {
+        line-height: 1.3;
+    }
+    .single-sub p {
+        font-size: 16px;
+    }
+    .single-time {
+        display: block !important;
+    }
+    .single-img img {
+        width: 100%;
+        height: auto;
+    }
+    .single-container {
+        padding-left: 15px !important;
+    }
+    .single-content {
+        font-size: 16px;
+    }
+    .archive-box a {
+        font-size: 14px;
+    }
+    .pagination-box {
+        height: 120px;
+    }
+    .pagination-next:after {
+        border-width: 41px 0 40px 30px;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px){
+    .pagination-box {
+        height: 120px;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px){
     .single-img img {
