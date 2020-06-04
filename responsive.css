@@ -24,15 +24,16 @@
 /* -------------------------------------------------------------------------------- */
 /*	0. Document
 /* -------------------------------------------------------------------------------- */
-
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width:1200px){}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px){
 }
-@media screen and (min-width: 768px) and (max-width: 991.98px){
+@media screen and (max-width: 575.98px) {
 }
-@media screen and (min-width: 992px) and (max-width: 1199.98px){}
-@media screen and (min-width:1200px){}
+
+
 
 /* -------------------------------------------------------------------------------- */
 /*	1. Font
@@ -136,6 +137,11 @@
 /* -------------------------------------------------------------------------------- */
 /*	5. Menu Navigation
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 990px) {
+    #ham p {
+        left: 36%;
+    }
+}
 @media screen and (min-width: 750px) {
 	#global-nav .main li .hoverArea {
 		overflow: hidden;
@@ -352,6 +358,11 @@
 	}
 
 }
+@media screen and (max-width: 380px) {
+    #ham p {
+        left: 30%;
+    }
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	6. Button
@@ -546,7 +557,6 @@
 }
 @media screen and (max-width: 770px) {
     .carousel1 .i-wrapper {
-        width: 80%;
         padding-top: 2em;
         padding-left: calc(10% + 10px);
     }
@@ -644,7 +654,7 @@
         top: calc(100vw / 50 * 100);
     }
     #section04 .bg {
-        height: calc(10vw + 1000px);
+        height: calc(100vw + 1000px);
     }
     #section04 h2 img {
         width: 60%;
@@ -670,17 +680,18 @@
         width: 85%;
     }
     #section04 .m-button {
-        top: calc(100vw + 200px);
+        font-size: 12px;
+        top: calc(80vw + 200px);
         left: calc(100vw / 50 * 15);
         right: calc(100vw / 50 * 15);
     }
     /* セクション5 */
     #section05 {
-        top: calc(100vw + 100px);
+        top: calc(150vw + 300px);
     }
     #section05 .itemimage img:first-child {
         width: 80%;
-        top: calc(130vw + 150px);
+        top: calc(150vw + 200px);
         left: 10%;
     }
     #section05 .itemimage img:nth-child(2) {
@@ -690,7 +701,7 @@
         bottom: 170px;
     }
     #section05 .content {
-        top: 100vw;
+        top: calc(100vw + 2em);
         width: 80%;
     }
     #section05 .content h3 img:first-of-type {
@@ -701,13 +712,31 @@
     }
     /* セクション６ */
     #section06 {
-        top: calc(250vw + 80px);
+        top: calc(1400px + 100vw);
     }
     #section06 .content {
         margin: 1em auto 3em;
     }
     #section06 .button {
         padding: 10px 80px 10px 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    /* セクション4 */
+    #section04 .bg {
+        height: calc(800px + 100vw);
+    }
+    #section04 .m-button {
+        top: calc(300px + 80vw);
+    }
+    /* セクション5 */
+    #section05 {
+        top: calc(250px + 100vw);
+    }
+    /* セクション6 */
+    #section06 {
+        top: calc(800px + 100vw);
     }
 }
 
@@ -1094,7 +1123,7 @@
 
 @media screen and (max-width: 575.98px) {
     .f-footer {
-        top: calc(250vw + 100px);
+        top: calc(1500px + 100vw);
     }
     .footer-logo1 {
         width: 130px !important;
@@ -1178,3 +1207,8 @@
     }
 }
 @media screen and (min-width:1200px){}
+@media screen and (max-width: 380px) {
+    .f-footer {
+        top: calc(850px + 100vw);
+    }
+}
