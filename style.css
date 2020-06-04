@@ -1124,7 +1124,7 @@ input[type=radio] {
     max-width: 650px;
 }
 .single-title {
-    line-height: .6em;
+    line-height: 1em;
     border-bottom: 10px solid;
     border-image: linear-gradient(to right, #f15a24 0%, #ffff00 100%);
     border-image-slice: 1;
