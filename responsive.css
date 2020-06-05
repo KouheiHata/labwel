@@ -1107,7 +1107,7 @@
         font-size: 18px;
     }
     .single-sub p {
-        font-size: 16px;
+        font-size: 14px;
     }
     .single-time {
         display: block !important;
@@ -1141,6 +1141,9 @@
     }
     .pagination-next:after {
         border-width: 28px 0 29px 20px;
+    }
+    .pagination-prev:before {
+        border-width: 28px 20px 29px 0;
     }
     .rpr60 {
         padding-right: 60px;
@@ -1181,6 +1184,9 @@
     }
     .pagination-next:after {
         border-width: 38px 0 39px 30px;
+    }
+    .pagination-prev:before {
+        border-width: 38px 30px 39px 0;
     }
     .rpr60 {
         padding-right: 60px;
