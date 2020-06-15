@@ -87,9 +87,6 @@
     .vertical {
         right: 0;
     }
-    .vertical li img {
-        width: 80%;
-    }
 }
 
 @media screen and (max-width: 990px) and (min-width: 771px) {
